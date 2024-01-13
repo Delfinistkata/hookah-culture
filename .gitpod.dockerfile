@@ -1,4 +1,3 @@
-@
 FROM gitpod/workspace-base
 
 RUN echo "CI version from base"
