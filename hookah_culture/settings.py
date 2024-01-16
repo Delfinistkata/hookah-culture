@@ -46,6 +46,10 @@ INSTALLED_APPS = [
     'products',
     'cart',
     'checkout',
+
+
+    # Other
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -72,6 +76,8 @@ LOGIN_REDIRECT_URL = '/'
 
 ROOT_URLCONF = 'hookah_culture.urls'
 
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -86,8 +92,13 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.template.context_processors.media',
                 'cart.contexts.cart_contents',
             ],
+            'builtins': [
+                'crispy_forms.templatetags.crispy_forms_tags',
+                'crispy_forms.templatetags.crispy_forms_field',
+            ]
         },
     },
 ]
