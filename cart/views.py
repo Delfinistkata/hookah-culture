@@ -10,7 +10,7 @@ def view_cart(request):
     return render(request, 'cart/cart.html')
 
 def add_to_cart(request, item_id):
-    """ Add a quantity of the specified product to the shopping bag """
+    """ Add a quantity of the specified product to the shopping cart """
 
     product = get_object_or_404(Product, pk=item_id)
     print(product)
@@ -22,7 +22,7 @@ def add_to_cart(request, item_id):
         cart[item_id] += quantity
     else:
         cart[item_id] = quantity
-        messages.success(request, f'Added {product.name} to your bag')
+        messages.success(request, f'Added {product.name} to your cart')
 
     request.session['cart'] = cart
     return redirect(redirect_url)
@@ -48,7 +48,7 @@ def adjust_cart(request, item_id):
 
 
 def remove_from_cart(request, item_id):
-    """Remove the item from the shopping bag"""
+    """Remove the item from the shopping cart"""
 
     try:
         product = get_object_or_404(Product, pk=item_id)
