@@ -49,7 +49,12 @@ def checkout(request):
 
         order_form = OrderForm(form_data)
         if order_form.is_valid():
-            order = order_form.save()
+            order = order_form.save(commit=False)
+            pid = request.POST.get('client_secret').split('_secret')[0]
+            order.stripe_pid = pid
+            order.original_cart = json.dumps(cart)
+            order.save()
+
             for item_id, quantity in cart.items():
                 try:
                     product = Product.objects.get(id=item_id)
@@ -69,11 +74,8 @@ def checkout(request):
                     return redirect(reverse('view_cart'))
 
             request.session['save_info'] = 'save-info' in request.POST
-            return redirect(reverse(
-                                    'checkout_success',
-                                    args=[order.order_number])
-                            )
-
+            return redirect(reverse('checkout_success',
+                            args=[order.order_number]))
         else:
             messages.error(request, 'There was an error with your form. \
                 Please double check your information.')
@@ -93,28 +95,9 @@ def checkout(request):
             currency=settings.STRIPE_CURRENCY,
         )
 
-        order_form = OrderForm()
-
-        cart = request.session.get('cart', {})
-        if not cart:
-            messages.error(
-                            request,
-                            "There's nothing in your cart at the moment")
-            return redirect(reverse('products'))
-
-        current_cart = cart_contents(request)
-        total = current_cart['grand_total']
-        stripe_total = round(total * 100)
-        stripe.api_key = stripe_secret_key
-        intent = stripe.PaymentIntent.create(
-            amount=stripe_total,
-            currency=settings.STRIPE_CURRENCY,
-        )
-
     if not stripe_public_key:
         messages.warning(request, 'Stripe public key is missing.')
 
-    order_form = OrderForm()
     template = 'checkout/checkout.html'
     context = {
         'order_form': order_form,
