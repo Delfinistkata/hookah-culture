@@ -13,28 +13,28 @@
         <!-- Product description -->
         <div class="row">
             <div class="col-6 col-md-3 mb-3">
-                {% if product.image %}
-                    <img class="w-100" src="{{ product.image.url }}" alt="{{ product.name }}">
+                {% if review.product.image %}
+                    <img class="w-100" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
                 {% else %}
-                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ review.product.name }}">
                 {% endif %}
             </div>
             <div class="col-6 col-md-3 mb-3">
-                <p>{{ product.name }}</p>
-                <p>{{ product.description }}</p>
+                <p>{{ review.product.name }}</p>
+                <p>{{ review.product.description }}</p>
             </div>
         </div>
 
         <!-- Review form -->
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
-                <form method="POST" action="{% url 'add_review' product.id %}" id="review-form" class="text-muted form mb-5"
+                <form method="POST" action="" id="review-form" class="text-muted form mb-5"
                     enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-end mt-3">
-                        <a class="btn btn-main hvr-back-pulse" href="{% url 'product_detail' product.id %}">Cancel</a>
-                        <button class="btn btn-alternate" type="submit">Add Review</button>
+                        <a class="btn btn-main hvr-back-pulse" href="">Cancel</a>
+                        <button class="btn btn-alternate" type="submit">Update Review</button>
                     </div>
                 </form>
             </div>
