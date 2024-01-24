@@ -35,6 +35,12 @@
                                     class="fas fa-heart mx-2"></i></button>
                         </a>
                     </div>
+                    <div class="my-2">
+                        <a href="{% url 'add_review' product.id %}">
+                            <button data-product-id="{{ product.id }}">Add Review<i
+                                    class="fas fa-heart mx-2"></i></button>
+                        </a>
+                    </div>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}
                     <p class="small mt-1 mb-0">
@@ -98,6 +104,7 @@
                 </div>
             </div>
         </div>
+
 
         <!-- Product reviews -->
         <div class="row">
