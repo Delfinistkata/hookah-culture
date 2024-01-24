@@ -29,6 +29,12 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0">{{ product.name }}</p>
+                    <div class="my-2">
+                        <a href="{% url 'add_to_wishlist' product.id %}">
+                            <button class="wishlist-btn p-2" data-product-id="{{ product.id }}">Add to Wishlist<i
+                                    class="fas fa-heart mx-2"></i></button>
+                        </a>
+                    </div>
                     <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                     {% if product.category %}
                     <p class="small mt-1 mb-0">
