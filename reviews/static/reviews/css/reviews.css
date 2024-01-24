@@ -1,0 +1,8 @@
+/* My reviews */
+.review-product img {
+    height: 75px;
+    width: 75px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+}
