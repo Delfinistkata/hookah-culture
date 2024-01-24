@@ -181,6 +181,59 @@ input[name='q']::placeholder {
     object-fit: contain;
 }
 
+.wishlist-icon {
+    height: 20px;
+    width: 20px;
+}
+
+.wishlist-delete {
+    font-size: 18px;
+}
+
+.wishlist-border {
+    border: 2px dashed #194f4990;
+    border-radius: 20px;
+}
+
+a.wishlist-delete:hover {
+    color: var(--gold);
+}
+
+.wishlist-btn {
+    border-radius: 15px;
+    background: linear-gradient(to bottom, #e5ede8, #b5c9bd);
+    color: var(--forest);
+    border: none;
+    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+    transition: transform 0.3s ease;
+    transform-origin: center;
+    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+}
+
+.wishlist-btn:hover {
+    transform: scale(1.05);
+    background-color: #e1f0e7;
+    color: var(--purple);
+}
+
+.wishlist-btn:active {
+    transform: scale(0.95);
+    border: none;
+}
+
+.wishlist-btn:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    border: none;
+    color: var(--purple);
+}
+
 
 /* -------------------------------- Media Queries */
 
