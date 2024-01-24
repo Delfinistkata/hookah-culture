@@ -124,7 +124,13 @@
                                     <h5>{{ review.title }}</h5>
                                     <p>{{ review.content }}</p>
                                     <p class="c--light-blue"><i class="fas fa-star me-1"></i>{{ review.rating }} / 5</p>
-                                    <p class="text-muted small">By {{ review.author }} on {{ review.created_on }}</p>
+                                    <p class="text-muted d-inline small">By {{ review.author }} on {{ review.created_on }}</p>
+                                            {% if review.author == request.user %}
+                                                <small class="ms-3 float-end">
+                                                    <a href="{% url 'edit_review' review.id %}" class="update-link link-dark">Edit</a> |
+                                                    <a href="" class="remove-item link-blue float-right" id="remove_{{ item.item_id }}">Delete</a>
+                                                </small>
+                                            {% endif %}
                                 </div>                                       
                                 </div>                                    
                             {% endfor %}

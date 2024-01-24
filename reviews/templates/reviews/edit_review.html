@@ -28,12 +28,12 @@
         <!-- Review form -->
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
-                <form method="POST" action="" id="review-form" class="text-muted form mb-5"
+                <form method="POST" action="{% url 'edit_review' review.id %}" id="review-form" class="text-muted form mb-5"
                     enctype="multipart/form-data">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <div class="text-end mt-3">
-                        <a class="btn btn-main hvr-back-pulse" href="">Cancel</a>
+                        <a class="btn btn-main hvr-back-pulse" href="{% url 'product_detail' review.product.id %}">Cancel</a>
                         <button class="btn btn-alternate" type="submit">Update Review</button>
                     </div>
                 </form>
