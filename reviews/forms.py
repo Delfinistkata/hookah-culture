@@ -1,6 +1,7 @@
 from django import forms
 from .models import Review
 
+
 RATINGS = [(1, 'Very bad'),
             (2, 'Bad'),
             (3, 'Ok'),
