@@ -1,7 +1,7 @@
 from django.contrib import admin
 from .models import Contact
 
-
+@admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     """
     Contact management section for admin
@@ -18,5 +18,3 @@ class ContactAdmin(admin.ModelAdmin):
     list_filter = ("date_created", "name", "topic", "status")
 
     ordering = ("-date_created",)
-
-admin.site.register(Contact)

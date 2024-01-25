@@ -14,11 +14,10 @@ class ContactForm(forms.ModelForm):
         fields = "__all__"
 
     def __init__(self, *args, **kwargs):
-
         super().__init__(*args, **kwargs)
-        """
-        Add Placeholder to form fields
-        """
+
+        self.fields.pop('status', None)
+
         placeholders = {
             'name': 'Full Name',
             'email': 'Email Address',

@@ -21,6 +21,7 @@ class Contact(models.Model):
     ]
 
     topic = models.CharField(max_length=15, choices=TOPIC_CHOICES)
+    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Pending',)
     name = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
     phone = models.CharField(max_length=20)

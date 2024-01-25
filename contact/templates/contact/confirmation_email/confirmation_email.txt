@@ -1,0 +1,17 @@
+Dear {{ name }},
+
+We sincerely appreciate you reaching out to us. 
+Your inquiry is important to us, and we want to assure you that one of our dedicated team members will be reaching out to you shortly to address your concerns and provide the assistance you need.
+
+Here is a copy of the message you shared with us:
+
+{{ original_message }}
+
+While you await our response, feel free to explore our latest and featured products on our website.
+We're constantly updating our offerings to provide you with the best in Hookah Culture.
+
+Thank you for choosing Hookah Culture. We look forward to assisting you soon.
+
+Kind Regards,
+
+The Hookah Culture Team
