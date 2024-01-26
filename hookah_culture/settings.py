@@ -100,6 +100,7 @@ TEMPLATES = [
                 'django.template.context_processors.media',
                 'cart.contexts.cart_contents',
                 'wishlist.contexts.wishlist_items',
+                'newsletters.contexts.render_subscribe_form',
             ],
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
