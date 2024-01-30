@@ -1,36 +1,26 @@
-{% extends "base.html" %}
+{% extends "base_v2.html" %}
 {% load static %}
 
+{% block content %}
+<div class="container mt-4 mb-4">
+    <div class="row">
+        <!-- Container for the main content -->
+        <div class="col-md-6 offset-md-3 shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+            <p class="lead mb-4">Dear Customer,</p>
+            <p class="mb-4 ">We sincerely appreciate you reaching out to us. 
+                Your inquiry is important to us, and we want to assure you that one of our dedicated team members will be reaching out to you shortly to address your concerns and provide the assistance you need.
+            </p>
+            <p class="mb-4 ">While you await our response, feel free to explore our latest and featured products on our website. 
+                We're constantly updating our offerings to provide you with the best in Hookah Culture.
+            </p>
+            <p class="mb-4 ">Thank you for choosing Hookah Culture. We look forward to assisting you soon.</p>
+            <p>Kind Regards,<br>The Hookah Culture Team</p>
 
-{% block page_header %}
-    <div class="container header-container">
-        <div class="row">
-            <div class="col"></div>
+            <!-- Button to continue shopping -->
+            <div class="text-center">
+                <button class="btn btn-primary mt-3" href="{% url 'home' %}" type="submit">Continue Shopping</button>
+            </div>
         </div>
     </div>
-{% endblock %}
-
-{% block content %}
-<div class="container">
-    <div class="jumbotron">
-        <p>Dear {{ name }},</p>
-
-        <p>We sincerely appreciate you reaching out to us. 
-            Your inquiry is important to us, and we want to assure you that one of our dedicated team members will be reaching out to you shortly to address your concerns and provide the assistance you need.
-        </p>
-
-        <p>Here is a copy of the message you shared with us:</p>
-
-        <p>{{ original_message }}</p>
-
-        <p>While you await our response, feel free to explore our latest and featured products on our website. 
-            We're constantly updating our offerings to provide you with the best in Hookah Culture.
-        </p>
-
-        <p>Thank you for choosing Hookah Culture. We look forward to assisting you soon.</p>
-
-        <p>Kind Regards,<br>The Hookah Culture Team</p>
-    </div>
-    <a href="{% url 'home' %}" class="hero-text-button btn btn-primary btn-lg text-uppercase py-3">Home</a>
 </div>
 {% endblock %}

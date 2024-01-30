@@ -1,9 +1,14 @@
+"""
+This module contains the Contact model, 
+which represents messages sent by users.
+"""
 from django.db import models
 
 
 class Contact(models.Model):
     """
-    Users can send message
+    Users can send messages through the contact form, 
+    and the model represents each message.
     """
     # Set topic options for message
     TOPIC_CHOICES = [
@@ -30,10 +35,15 @@ class Contact(models.Model):
 
     class Meta:
         """
-        Set ordering and plural name
+        Set ordering and plural name options 
+        for the Contact model.
         """
         ordering = ['-date_created']
         verbose_name_plural = 'Contact Us'
 
     def __str__(self):
+        """
+        String representation of the Contact object.
+        Returns a formatted string displaying the sender's name.
+        """
         return f'Message from {self.name}'

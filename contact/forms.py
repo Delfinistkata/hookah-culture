@@ -1,19 +1,32 @@
+"""
+This module contains the ContactForm class, 
+which is a ModelForm for the Contact model.
+"""
 from django import forms
 from .models import Contact
 
 
 class ContactForm(forms.ModelForm):
     """
-    Create a form for the contact model
+    This class is a ModelForm for the Contact model. 
+    It specifies the fields to be included in
+    the form and customizes their appearance, 
+    including setting placeholders and adding classes.
     """
     class Meta:
         """
-        Display the required fields
+        This class defines metadata options for the form, 
+        specifying the model and fields to include.
         """
         model = Contact
         fields = "__all__"
 
     def __init__(self, *args, **kwargs):
+        """
+        This method customizes the form's appearance, 
+        including setting placeholders,
+        removing the 'status' field, and adding classes to fields.
+        """
         super().__init__(*args, **kwargs)
 
         self.fields.pop('status', None)
@@ -33,5 +46,4 @@ class ContactForm(forms.ModelForm):
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].label = False
-            # add class to fields
             self.fields[field].widget.attrs['class'] = 'my-2'
