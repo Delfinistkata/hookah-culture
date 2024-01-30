@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base_v2.html' %}
 
 {% load static %}
 
@@ -10,7 +10,18 @@
     <div class="row">
         <h1 class="col section-title my-3">Wishlist</h1>
     </div>
-    <div class="row wishlist-border p-2 mb-4 m-2 shadow">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+        {% if user_wishlist %}
+            {% for item in user_wishlist %}     
+                {% include 'products/includes/product.html' with product=item.product show_remove=1 %}
+            {% endfor %}
+        {% else %}
+            <div class="col-12 text-center my-5">
+                <p class="p-txt">Your wishlist is empty.</p>
+            </div>
+        {% endif %}
+    </div> 
+    <div class="row wishlist-border p-2 mb-4 m-2 shadow" style="display: none;">
         <div class="col-12">
             {% if user_wishlist %}
             <ul class="list-group">
