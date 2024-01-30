@@ -1,3 +1,9 @@
+"""
+Models for User Profiles in the 'profiles' app.
+This module defines the UserProfile model for maintaining default
+delivery information and order history, along with a signal receiver
+function to create or update user profiles when a User model is saved.
+"""
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
@@ -21,6 +27,9 @@ class UserProfile(models.Model):
     default_country = CountryField(blank_label='Country', null=True, blank=True)
 
     def __str__(self):
+        """
+        String representation of the user profile.
+        """
         return self.user.username
 
 
@@ -31,5 +40,4 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
     """
     if created:
         UserProfile.objects.create(user=instance)
-    # Existing users: just save the profile
     instance.userprofile.save()

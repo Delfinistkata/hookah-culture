@@ -1,21 +1,26 @@
+/* Style for order history section */
 .order-history {
     max-height: 416px; /* height of profile form + submit button */
     overflow-y: auto;
 }
 
+/* Style for form controls within the profile update form */
 #profile-update-form .form-control {
     color: #000;
 }
 
+/* Style for input placeholders within the profile update form */
 #profile-update-form input::placeholder {
     color: #aab7c4;
 }
 
+/* Style for the default country dropdown and its options */
 #id_default_country,
 #id_default_country option:not(:first-child) {
     color: #000;
 }
 
+/* Style for the placeholder text of the default country dropdown */
 #id_default_country option:first-child {
     color: #aab7c4;
 }

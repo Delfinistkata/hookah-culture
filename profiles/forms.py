@@ -1,9 +1,23 @@
+"""
+Forms for User Profile Management.
+This module defines forms related to user profile management, including the
+UserProfileForm used for updating user profile information.
+"""
 from django import forms
 from .models import UserProfile
 
 
 class UserProfileForm(forms.ModelForm):
+    """
+    Form for updating user profile information.
+    This form extends the built-in ModelForm and is specifically designed
+    for updating the user profile information. It excludes the 'user' field
+    as it is automatically associated with the logged-in user.
+    """
     class Meta:
+        """
+        Metadata class for UserProfileForm.
+        """
         model = UserProfile
         exclude = ('user',)
 
@@ -30,5 +44,7 @@ class UserProfileForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'shadow-lg p-2 bg-body-tertiary rounded mb-2 profile-form-input'
+            self.fields[field].widget.attrs['class'] = (
+                'shadow-lg p-2 bg-body-tertiary rounded mb-2 profile-form-input'
+            )
             self.fields[field].label = False
