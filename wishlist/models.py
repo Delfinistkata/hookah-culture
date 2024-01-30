@@ -1,11 +1,14 @@
+"""
+Django models import statements for UserProfile and Product.
+"""
 from django.db import models
 from profiles.models import UserProfile
 from products.models import Product
 
 
-class Wishlist(models.Model): 
+class Wishlist(models.Model):
     """
-    A Wishlist model for users to keep track of their favourite products
+    A Wishlist model for users to keep track of their favourite products.
     """
     user_profile = models.ForeignKey(UserProfile, on_delete=models.CASCADE,
                                     null=False, blank=False,

@@ -2,76 +2,103 @@
 
 {% load static %}
 
-{% block title %}Wishlist{% endblock %}
-
 {% block content %}
-
-<div class="container my-5 text-center">
-    <div class="row">
-        <h1 class="col section-title my-3">Wishlist</h1>
-    </div>
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
-        {% if user_wishlist %}
-            {% for item in user_wishlist %}     
-                {% include 'products/includes/product.html' with product=item.product show_remove=1 %}
-            {% endfor %}
-        {% else %}
-            <div class="col-12 text-center my-5">
-                <p class="p-txt">Your wishlist is empty.</p>
-            </div>
-        {% endif %}
-    </div> 
-    <div class="row wishlist-border p-2 mb-4 m-2 shadow" style="display: none;">
-        <div class="col-12">
+    <!-- Wishlist content block -->
+    <div class="container mb-4 mt-4">
+        <!-- Wishlist page title -->
+        <div class="col-12 col-md-6 mx-auto mt-2 text-center">
+            <h1 class="logo-font mb-4">My Wishlist</h1>
+        </div>
+        <!-- Wishlist items -->
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
             {% if user_wishlist %}
-            <ul class="list-group">
                 {% for item in user_wishlist %}
-                <li class="list-group-item">
-                    <div class="row align-items-center">
-                        <div class="col-lg-2 col-sm-4">
-                            <a href="{% url 'product_detail' item.product.id %}">
-                                {% if item.product.image %}
-                                <img class="w-100 wishlist-prod" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                                {% else %}
-                                <img class="w-100 wishlist-prod" src="{{ MEDIA_URL }}noimage.png"
-                                    alt="{{ item.product.name }}">
-                                {% endif %}
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-sm-4 text-left">
-                            <p class="my-0">{{ item.product.name }}</p>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                            <a href="{% url 'remove_from_wishlist' item.product.id %}" class="wishlist-delete">
-                                <i class="fas fa-trash wishlist-icon"></i> Remove
-                            </a>
-                        </div>
-                    </div>
-                </li>
+                    <!-- Include product template for each wishlist item -->
+                    {% include 'products/includes/product.html' with product=item.product show_remove=1 %}
                 {% endfor %}
-            </ul>
             {% else %}
-            <div class="col-12 text-center my-5">
-                <p class="p-txt">Your wishlist is empty.</p>
-            </div>
+                <!-- Display message when wishlist is empty -->
+                <div class="col-12 text-center my-5">
+                    <p class="p-txt">Your wishlist is empty.</p>
+                </div>
             {% endif %}
+        </div> 
+        <!-- Wishlist details in a list -->
+        <div class="row wishlist-border p-2 mb-2 m-2 shadow" style="display: none;">
+            <div class="col-12">
+                {% if user_wishlist %}
+                    <!-- Display each wishlist item in a list format -->
+                    <ul class="list-group">
+                        {% for item in user_wishlist %}
+                            <li class="list-group-item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-2 col-sm-4">
+                                        <!-- Display product image with link to product detail page -->
+                                        <a href="{% url 'product_detail' item.product.id %}">
+                                            {% if item.product.image %}
+                                                <img class="w-100 wishlist-prod" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                            {% else %}
+                                                <img class="w-100 wishlist-prod" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                            {% endif %}
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-sm-4 text-left">
+                                        <!-- Display product name -->
+                                        <p class="my-0">{{ item.product.name }}</p>
+                                    </div>
+                                    <div class="col-lg-4 col-sm-4">
+                                        <!-- Remove from wishlist link -->
+                                        <a href="{% url 'remove_from_wishlist' item.product.id %}" class="wishlist-delete">
+                                            <i class="fas fa-trash wishlist-icon"></i> Remove
+                                        </a>
+                                    </div>
+                                </div>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% else %}
+                    <!-- Display message when wishlist is empty -->
+                    <div class="col-12 text-center my-5">
+                        <p class="p-txt">Your wishlist is empty.</p>
+                    </div>
+                {% endif %}
+            </div>
         </div>
     </div>
-</div>
 
-<!-- Back to top button -->
-<div class="btt-button shadow-sm border rounded">
-    <a class="btt-link link-dark d-flex h-100">
-        <i class="fas fa-arrow-up mx-auto my-auto"></i>
-    </a>	
-</div>
+    <!-- Wishlist pagination -->
+    {% if user_wishlist.has_other_pages %}
+        <nav aria-label="Page navigation">
+            <ul class="pagination justify-content-center">
+                {% if user_wishlist.has_previous %}
+                    <li class="page-item"><a href="?page={{ user_wishlist.previous_page_number }}" class="page-link">&laquo; PREV</a></li>
+                {% endif %}
+
+                <li class="page-item disabled"><span class="page-link">Page {{ user_wishlist.number }} of {{ user_wishlist.paginator.num_pages }}</span></li>
+
+                {% if user_wishlist.has_next %}
+                    <li class="page-item"><a href="?page={{ user_wishlist.next_page_number }}" class="page-link">NEXT &raquo;</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+    {% endif %}
+
+    <!-- Back to top button -->
+    <div class="btt-button shadow-sm border rounded">
+        <a class="btt-link link-dark d-flex h-100">
+            <i class="fas fa-arrow-up mx-auto my-auto"></i>
+        </a>	
+    </div>
 {% endblock %}
 
 {% block postloadjs %}
+    <!-- Additional JavaScript block -->
     {{ block.super }}
+    
+    <!-- Script to scroll back to the top when back to top button is clicked -->
     <script type="text/javascript">
-		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0);
-		})
-	</script>
+        $('.btt-link').click(function(e) {
+            window.scrollTo(0,0);
+        })
+    </script>
 {% endblock %}

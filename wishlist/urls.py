@@ -1,3 +1,7 @@
+"""
+Django URL patterns for the Wishlist app.
+The URL patterns define the routes for handling wishlist-related views.
+"""
 from django.urls import path
 from . import views
 
