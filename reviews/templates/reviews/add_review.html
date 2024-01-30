@@ -1,4 +1,4 @@
-{% extends "base.html" %}
+{% extends "base_v2.html" %}
 {% load static %}
 
 {% block extra_css %}
@@ -6,37 +6,46 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
     <div class="container">
         <div class="row">
-
-        <!-- Product description -->
-        <div class="row">
-            <div class="col-6 col-md-3 mb-3">
-                {% if product.image %}
-                    <img class="w-100" src="{{ product.image.url }}" alt="{{ product.name }}">
-                {% else %}
-                    <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
-                {% endif %}
-            </div>
-            <div class="col-6 col-md-3 mb-3">
-                <p>{{ product.name }}</p>
-                <p>{{ product.description }}</p>
+            <div class="col-12 col-md-6 mx-auto mt-2 text-center">
+                <h1 class="logo-font mb-4">Review</h1>
             </div>
         </div>
-
-        <!-- Review form -->
         <div class="row">
+            <!-- Product Information -->
             <div class="col-12 col-md-6 mb-3">
-                <form method="POST" action="{% url 'add_review' product.id %}" id="review-form" class="text-muted form mb-5"
-                    enctype="multipart/form-data">
-                    {% csrf_token %}
-                    {{ form | crispy }}
-                    <div class="text-end mt-3">
-                        <a class="btn btn-main hvr-back-pulse" href="{% url 'product_detail' product.id %}">Cancel</a>
-                        <button class="btn btn-alternate" type="submit">Add Review</button>
+                <div class="shadow-lg p-3 bg-body-tertiary rounded">
+                    <h2 class="text-muted text-center">Product Information</h2>
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            {% if product.image %}
+                                <img class="w-100" src="{{ product.image.url }}" alt="{{ product.name }}">
+                            {% else %}
+                                <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}">
+                            {% endif %}
+                        </div>
+                        <div class="col-6 mb-3">
+                            <p>{{ product.name }}</p>
+                            <p>{{ product.description }}</p>
+                        </div>
                     </div>
-                </form>
+                </div>
+            </div>
+            <!-- Add Review form -->
+            <div class="col-12 col-md-6 mb-3">
+                <div class="shadow-lg p-3 bg-body-tertiary rounded">
+                    <h2 class="text-muted text-center">Add Review</h2>
+                    <form method="POST" action="{% url 'add_review' product.id %}" id="review-form" class="text-muted form mb-5"
+                        enctype="multipart/form-data">
+                        {% csrf_token %}
+                        {{ form | crispy }}
+                        <div class="text-center">
+                            <a class="btn btn-outline-black mt-3" href="{% url 'product_detail' product.id %}">Cancel</a>
+                            <button class="btn btn-primary mt-3" type="submit">Add Review</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
