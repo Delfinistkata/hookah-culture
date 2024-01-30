@@ -39,9 +39,6 @@ def add_review(request, product_id):
                 form.save()
                 messages.success(request,
                                 'Your product review has been submitted')
-
-                update_product_rating(product)
-
                 return redirect(reverse('product_detail', args=[product.id]))
             else:
                 messages.error(request, 'Failed to submit the review. \
@@ -73,9 +70,6 @@ def edit_review(request, review_id):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully updated your review!')
-
-            update_product_rating(review.product)
-
             return redirect(reverse('product_detail', args=[review.product.id]))
         else:
             messages.error(request, 'Failed to update your review. Please ensure the form is valid.')
@@ -105,24 +99,4 @@ def delete_review(request, review_id):
     review.delete()
     messages.success(request, 'Your review has been deleted!')
     print('REVIEW', review)
-    update_product_rating(review.product)
-
     return redirect(reverse('product_detail', args=[review.product.id]))
-
-
-def update_product_rating(product):
-    """ Update the rating field for the product """
-
-    total_reviews = Review.objects.filter(product=product)
-    num_ratings_of_total_reviews = total_reviews.count()
-    ratings_sum = 0
-
-    if num_ratings_of_total_reviews <= 0:
-        product.rating = None
-    else:
-        for review in total_reviews:
-            ratings_sum += review.rating
-
-        product.rating = ratings_sum / num_ratings_of_total_reviews
-
-    product.save()
