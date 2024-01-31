@@ -3,8 +3,11 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.db.models import Q
 from django.db.models.functions import Lower
+from django.db.models import Avg
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .models import Product, Category
 from .forms import ProductForm
+
 
 # Create your views here.
 
@@ -16,11 +19,15 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    paginate_by = 6
 
     if request.GET:
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
+            if sortkey == 'rating':
+                products =  products.annotate(avg_rating = Avg('reviews__rating'))     
+                sortkey =  'avg_rating'
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
@@ -49,6 +56,17 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
+    # Pagination
+    paginator = Paginator(products, paginate_by)
+    page = request.GET.get('page', 1)
+
+    try:
+        products = paginator.page(page)
+    except PageNotAnInteger:
+        products = paginator.page(1)
+    except EmptyPage:
+        products = paginator.page(paginator.num_pages)
+
     context = {
         'products': products,
         'search_term': query,
@@ -63,9 +81,13 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-
+    categoryId = product.category.id
+    products = Product.objects.all()
+    products_related = products.filter(category=categoryId)
+    
     context = {
         'product': product,
+        'products_related': products_related        
     }
 
     return render(request, 'products/product_detail.html', context)
