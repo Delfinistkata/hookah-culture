@@ -66,6 +66,8 @@ def checkout(request):
                         product=product,
                         quantity=quantity,
                     )
+                    product.stock = product.stock - quantity
+                    product.save()
                     order_line_item.save()
                 except Product.DoesNotExist:
                     messages.error(request, (
@@ -74,8 +76,7 @@ def checkout(request):
                         "Please call us for assistance!")
                     )
                     order.delete()
-                    return redirect(reverse('view_cart'))
-
+                    return redirect(reverse('view_cart'))            
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success',
                             args=[order.order_number]))
