@@ -1,0 +1,41 @@
+{% load my_filters %}
+
+<div class="row">
+    <a class="fw-bolder mb-4 h5" href="#" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+            Customers Reviews ({{reviews|length }})
+    </a>
+    <div class="collapse multi-collapse" id="collapseWidthExample">
+        {% if reviews%}
+        {% for review in reviews %}    
+            <div class="mb-4 pb-4 border-bottom">
+                <div class="d-flex mb-3 align-items-center">
+                <img src="../assets/images/avatar-1.png" alt="" class="rounded-circle avatar-lg">
+                <div class="ml-2">
+                    <h5 class="mb-1">
+                        {{ review.author}}
+                        <img src="../assets/images/verified.svg" alt="">
+                    </h5>
+                    <p class="font-12 mb-0">
+                        <span>{{ review.created_on}}</span>
+                    </p>
+                </div>
+                </div>
+                <div class="mb-2">            
+                    <span class="font-14 mr-2">
+                        {% for value in review.rating|reviews_range %}
+                            <i class="fas fa-star text-warning"></i>
+                        {% endfor %}
+                        
+                    </span>
+                <span class="h5">{{ review.title}}</span>
+                </div>
+                <p>
+                {{ review.content}}
+                </p>
+            </div>
+        {% endfor %}
+    {% else %}
+            <p class="text-center h6">No reviews yet</p>
+    {% endif %}
+    </div>    
+ </div>
