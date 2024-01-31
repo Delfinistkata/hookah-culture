@@ -1,22 +1,24 @@
 {% extends "base_v2.html" %}
+
 {% load static %}
 
 {% block content %}
 <div class="main ">
+    <!-- Header section with a flex layout -->
     <div class="d-flex flex-row-reverse h-100  align-items-center justify-content-start">
+        <!-- Content column with a flex layout -->
         <div class="d-flex flex-column col-7 col-md-6">
+            <!-- Heading section -->
             <div class="p-2">
                 <h1 class="display-4 logo-font text-white">
-                    Elevate Your Shisha Experience
+                    Elevate Your Hookah Experience
                 </h1>
             </div>
+            <!-- Call-to-action button section -->
             <div class="p-2 d-flex justify-content-start">
                 <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
             </div>
-        
         </div>
-    
+    </div>
 </div>
-
-  </div>
 {% endblock %}

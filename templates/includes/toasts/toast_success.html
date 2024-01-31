@@ -1,27 +1,41 @@
+<!-- Toast notification container -->
 <div class="toast custom-toast rounded-0 border-top-0" data-autohide="false">
+    <!-- Toast header section -->
     <div class="toast-header">    
+        <!-- Strong tag for a strong text -->
         <strong class="me-auto">Success!</strong>        
+        <!-- Close button for the toast -->
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
+    <!-- Arrow-up indicator for the toast with a success color -->
     <div class="arrow-up arrow-success"></div>
+    <!-- Background section for the toast with a success color -->
     <div class="w-100 toast-capper bg-success"></div>
+    <!-- Toast body section with the actual message -->
     <div class="toast-body bg-white">
+        <!-- Message content in a row -->
         <div class="row">
             <div class="col">
                 {{ message }}
+                <!-- Horizontal line for separation -->
                 <hr class="mt-1 mb-3">
             </div>
         </div>
+        <!-- Check if there is a grand total and not on the profile page -->
         {% if grand_total and not on_profile_page %}
+            <!-- Cart information -->
             <p class="logo-font bg-white text-black py-1">Your Cart ({{ product_count }})</p>
+            <!-- Cart items wrapper -->
             <div class="bag-notification-wrapper">
+                <!-- Loop through each cart item -->
                 {% for item in cart_items %}
                     <div class="row">
                         <div class="col-3 my-1">
+                            <!-- Check if the item has an image -->
                             {% if item.product.image %}
-                            <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
+                                <img class="w-100" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
                             {% else %}
-                            <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
+                                <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
                             {% endif %}
                         </div>
                         <div class="col-9">
@@ -31,16 +45,22 @@
                     </div>
                 {% endfor %}
             </div>
+            <!-- Cart total and checkout options -->
             <div class="row">
-                <strong><p class="mt-3 mb-1 text-black">
-                    Total{% if free_delivery_delta > 0 %} (Exc. delivery){% endif %}: 
-                    <span class="float-right">${{ total|floatformat:2 }}</span>
-                </p></strong>
+                <strong>
+                    <p class="mt-3 mb-1 text-black">
+                        Total{% if free_delivery_delta > 0 %} (Exc. delivery){% endif %}: 
+                        <span class="float-right">${{ total|floatformat:2 }}</span>
+                    </p>
+                </strong>
+                <!-- Check if free delivery is applicable -->
                 {% if free_delivery_delta > 0 %}
+                    <!-- Display a message for free next day delivery -->
                     <p class="mb-0 p-2 bg-warning shadow-sm text-black text-center">
                         Spend <strong>${{ free_delivery_delta }}</strong> more to get free next day delivery!
                     </p>
                 {% endif %}
+                <!-- Secure checkout button -->
                 <a href="{% url 'view_cart' %}" class="btn btn-black btn-block rounded-0">
                     <span class="text-uppercase">Go To Secure Checkout</span>
                     <span class="icon">

@@ -1,11 +1,17 @@
+<!-- Toast notification container -->
 <div class="toast custom-toast rounded-0 border-top-0" data-autohide="false">
+    <!-- Toast header section -->
     <div class="toast-header">    
+        <!-- Strong tag for a strong text -->
         <strong class="me-auto">Warning!</strong>        
+        <!-- Close button for the toast -->
         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
     </div>
-
+    <!-- Arrow-up indicator for the toast with a warning color -->
     <div class="arrow-up arrow-warning"></div>
+    <!-- Background section for the toast with a warning color -->
     <div class="w-100 toast-capper bg-warning"></div>
+    <!-- Toast body section with the actual message -->
     <div class="toast-body bg-white">
         {{ message }}        
     </div>
