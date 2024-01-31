@@ -28,6 +28,8 @@ class ProductForm(forms.ModelForm):
             widget=forms.NumberInput(attrs={'placeholder': 'Stock Amount'})
         )
 
+        self.fields['description'].widget.attrs['rows'] = 2
+
         categories = Category.objects.all()
         friendly_names = [(c.id, c.get_friendly_name()) for c in categories]
 

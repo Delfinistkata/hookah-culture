@@ -5,7 +5,6 @@ which is a ModelForm for the Contact model.
 from django import forms
 from .models import Contact
 
-
 class ContactForm(forms.ModelForm):
     """
     This class is a ModelForm for the Contact model. 
@@ -45,5 +44,9 @@ class ContactForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
+                self.fields[field].widget.attrs['class'] = 'my-2'
+
+                if field == 'message' and isinstance(self.fields[field].widget, forms.Textarea):
+                    self.fields[field].widget.attrs['rows'] = 6
+
             self.fields[field].label = False
-            self.fields[field].widget.attrs['class'] = 'my-2'
