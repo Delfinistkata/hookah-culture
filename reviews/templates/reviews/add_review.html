@@ -41,8 +41,8 @@
                         {% csrf_token %}
                         {{ form | crispy }}
                         <div class="text-center">
-                            <a class="btn btn-outline-black mt-3" href="{% url 'product_detail' product.id %}">Cancel</a>
                             <button class="btn btn-primary mt-3" type="submit">Add Review</button>
+                            <a class="btn btn-outline-black mt-3" href="{% url 'product_detail' product.id %}">Cancel</a>
                         </div>
                     </form>
                 </div>
