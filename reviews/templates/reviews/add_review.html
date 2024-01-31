@@ -16,7 +16,7 @@
             <!-- Product Information -->
             <div class="col-12 col-md-6 mb-3">
                 <div class="shadow-lg p-3 bg-body-tertiary rounded">
-                    <h2 class="text-muted text-center">Product Information</h2>
+                    <h2 class="text-muted text-center text-uppercase">Product Information</h2>
                     <div class="row">
                         <div class="col-6 mb-3">
                             {% if product.image %}
@@ -35,7 +35,7 @@
             <!-- Add Review form -->
             <div class="col-12 col-md-6 mb-3">
                 <div class="shadow-lg p-3 bg-body-tertiary rounded">
-                    <h2 class="text-muted text-center">Add Review</h2>
+                    <h2 class="text-muted text-center text-uppercase">Add Review</h2>
                     <form method="POST" action="{% url 'add_review' product.id %}" id="review-form" class="text-muted form mb-5"
                         enctype="multipart/form-data">
                         {% csrf_token %}
