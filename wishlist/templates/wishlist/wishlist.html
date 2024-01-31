@@ -7,10 +7,11 @@
     <div class="container mb-4 mt-4">
         <!-- Wishlist page title -->
         <div class="col-12 col-md-6 mx-auto mt-2 text-center">
-            <h1 class="logo-font mb-4">My Wishlist</h1>
+            <h1 class="text-uppercase mt-3">My Wishlist</h1>
         </div>
+        <hr> 
         <!-- Wishlist items -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3 mb-3">
             {% if user_wishlist %}
                 {% for item in user_wishlist %}
                     <!-- Include product template for each wishlist item -->
@@ -18,8 +19,11 @@
                 {% endfor %}
             {% else %}
                 <!-- Display message when wishlist is empty -->
-                <div class="col-12 text-center my-5">
-                    <p class="p-txt">Your wishlist is empty.</p>
+                <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
+                    <p class="text-uppercase font-monospace text-center">Your wishlist is empty.</p>
+                    <div class="text-center">
+                        <a href="{% url 'products' %}" class="btn btn-outline-black mt-3">Continue Shopping</a>
+                    </div>
                 </div>
             {% endif %}
         </div> 
@@ -58,8 +62,11 @@
                     </ul>
                 {% else %}
                     <!-- Display message when wishlist is empty -->
-                    <div class="col-12 text-center my-5">
-                        <p class="p-txt">Your wishlist is empty.</p>
+                    <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
+                        <p class="text-uppercase font-monospace text-center">Your wishlist is empty.</p>
+                        <div class="text-center">
+                            <a href="{% url 'products' %}" class="btn btn-outline-black mt-3">Continue Shopping</a>
+                        </div>
                     </div>
                 {% endif %}
             </div>
