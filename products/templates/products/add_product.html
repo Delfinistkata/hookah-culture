@@ -1,25 +1,35 @@
 {% extends "base_v2.html" %}
+
 {% load static %}
 
 {% block content %}
+    <!-- Main content block -->
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6 mx-auto mt-2 text-center">
-                <h1 class="logo-font mb-4">Product Management</h1>
+                <!-- Page title -->
+                <h1 class="text-uppercase mt-3">Product Management</h1>
             </div>
         </div>
         <div class="row mb-4">
             <div class="col-12 col-md-6 mx-auto shadow-lg p-3 bg-body-tertiary rounded">
-                <h2 class="text-muted text-center">Add Product</h2>
+                <!-- Add Product Form -->
+                <h2 class="text-muted text-center text-uppercase">Add Product</h2>
                 <form method="POST" action="{% url 'add_product' %}" enctype="multipart/form-data">
                     {% csrf_token %}
+                    
+                    <!-- Loop through form fields -->
                     {% for field in form %}
                         {% if field.name != 'image' %}
+                            <!-- Render form field using crispy_forms_tags -->
                             {{ field | as_crispy_field }}
                         {% else %}
+                            <!-- Render image field separately -->
                             {{ field }}
                         {% endif %}
                     {% endfor %}
+                    
+                    <!-- Form submission buttons -->
                     <div class="text-center">
                         <button class="btn btn-primary mt-3" type="submit">Add Product</button>
                         <a class="btn btn-outline-black mt-3" href="{% url 'products' %}">Cancel</a>
@@ -31,7 +41,10 @@
 {% endblock %}
 
 {% block postloadjs %}
+    <!-- Additional JavaScript block -->
     {{ block.super }}
+    
+    <!-- Script to update displayed filename when a new image is selected -->
     <script type="text/javascript">
         $('#new-image').change(function() {
             var file = $('#new-image')[0].files[0];
@@ -39,4 +52,3 @@
         });
     </script>
 {% endblock %}
-
