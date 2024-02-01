@@ -1,1 +1,1 @@
-web: gunicorn hookah-culture.wsgi:application
+web: gunicorn hookah_culture.wsgi:application
