@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-_q-sq*k%6y5f@xir&w)uiokntpfyo1ktrsx4lt0b6f=^=%kuf(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['hookah-culture.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', 'localhost']
 
 
 # Application definition
