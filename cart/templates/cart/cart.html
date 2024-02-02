@@ -1,109 +1,156 @@
 {% extends "base.html" %}
+
 {% load static %}
 {% load cart_tools %}
+
 {% block content %}
+<!-- Start of Cart Section -->
 <section class="pt-5 pb-5">
     <div class="container">
-      <div class="row w-100">
-          <div class="col-lg-12 col-md-12 col-12">
-              <h3 class="display-5 mb-2 text-center">Shopping Cart</h3>
-              <p class="mb-5 text-center">
-                  <i class="text-info font-weight-bold">{{ cart_items | length}}</i> items in your cart</p>
+        {% if cart_items %}
+        <!-- Display Cart Items if the Cart is not empty -->
+        <div class="row w-100">
+            <div class="col-lg-12 col-md-12 col-12">
+                <!-- Cart Title and Item Count -->
+                <h3 class="display-5 mb-2 text-center">Shopping Cart</h3>
+                <p class="mb-5 text-center">
+                    <i class="text-info font-weight-bold">{{ cart_items | length}}</i> items in your cart
+                </p>
+
+                <!-- Cart Table -->
                 <table id="shoppingCart" class="table table-condensed table-responsive">
-                    <thead>
+                    <thead class="p-1">
                         <tr>
-                            <th style="width:50%">Product</th>                                
+                            <th style="width:50%">Product</th>
                             <th style="width:10%">Quantity</th>
-                            <th  style="width:12%">Price</th>
+                            <th style="width:12%">Price</th>
                         </tr>
                     </thead>
                     <tbody>
+                        <!-- Loop through cart items and display details -->
                         {% for item in cart_items %}
                         <tr>
                             <td>
+                                <!-- Product Details -->
                                 <div class="row">
                                     <div class="col-md-3 text-left">
+                                        <!-- Product Image Link -->
                                         <a class="link-blue" href="{% url 'product_detail' item.product.id %}">
-                                            <img  class="img-fluid d-none d-md-block rounded mb-2 shadow " src="{{ item.product.image.url }}" alt="{{ item.product.name }}"  width="50%" height="200px">
+                                            <!-- Product Image -->
+                                            <img class="img-fluid d-none d-md-block rounded mb-2 shadow "
+                                                src="{{ item.product.image.url }}" alt="{{ item.product.name }}"
+                                                width="50%" height="200px">
                                         </a>
-                                        
                                     </div>
                                     <div class="col-md-3 text-left mt-sm-2">
-                                        <h6>{{ item.product.name}}</h6>                                    
+                                        <!-- Product Name -->
+                                        <h6>{{ item.product.name}}</h6>
                                     </div>
                                 </div>
-                            </td>                            
-                            <td class="w-100">                        
-                                <form class="form update-form d-flex flex-column flex-sm-row  gap-2" method="POST" action="{% url 'adjust_cart' item.item_id %}">
+                            </td>
+                            <td class="w-100">
+                                <!-- Quantity Update Form -->
+                                <form class="form update-form d-flex flex-column flex-sm-row  gap-2" method="POST"
+                                    action="{% url 'adjust_cart' item.item_id %}">
                                     {% csrf_token %}
-                                    <div class="input-group mb-3" style="width: 170px;">
-                                        <button class="btn btn-white border border-secondary px-3 decrement-qty" type="button" 
-                                        data-item_id="{{ item.product.id }}" id="decrement-qty_{{ item.product.id }}">
+                                    <!-- Quantity Input and Buttons -->
+                                    <div class="input-group mb-3" style="width: 150px;">
+                                        <!-- Decrease Quantity Button -->
+                                        <button class="btn btn-white border border-secondary px-3 decrement-qty"
+                                            type="button" data-item_id="{{ item.product.id }}"
+                                            id="decrement-qty_{{ item.product.id }}">
                                             <i class="fas fa-minus"></i>
                                         </button>
+                                        <!-- Quantity Input -->
                                         <input class="form-control text-center border border-secondary qty_input"
-                                        type="number" value="{{item.quantity}}" 
-                                        name="quantity"  min="1" max="{{ item.product.stock}}" 
-                                        data-item_id="{{ item.product.id }}" id="id_qty_{{ item.product.id }}">                
-                                        <button class="btn btn-white border border-secondary px-3 increment-qty" type="button"
-                                        data-item_id="{{ item.product.id }}" id="increment-qty_{{ item.product.id }}">
+                                            type="number" value="{{item.quantity}}" name="quantity" min="1"
+                                            max="{{ item.product.stock}}" data-item_id="{{ item.product.id }}"
+                                            id="id_qty_{{ item.product.id }}">
+                                        <!-- Increase Quantity Button -->
+                                        <button class="btn btn-white border border-secondary px-3 increment-qty"
+                                            type="button" data-item_id="{{ item.product.id }}"
+                                            id="increment-qty_{{ item.product.id }}">
                                             <i class="fas fa-plus"></i>
                                         </button>
-                                        </div>
-                                    
-                                        <button class="btn btn-white border-secondary bg-white btn-xs  mb-3 update-link" type="submit">
-                                            <i class="fas fa-sync"></i>
-                                        </button>
-                                        <a class="btn btn-white border-secondary bg-white btn-xs  mb-3 remove-item " id="remove_{{ item.item_id }}">
-                                            <i class="fas fa-trash"></i>
-                                        </a>
-                                    
+                                    </div>
+                                    <!-- Update and Remove Buttons -->
+                                    <button class="btn btn-white border-secondary bg-white btn-xs  mb-3 update-link"
+                                        type="submit">
+                                        <i class="fas fa-sync"></i>
+                                    </button>
+                                    <a class="btn btn-white border-secondary bg-white btn-xs  mb-3 remove-item "
+                                        id="remove_{{ item.item_id }}">
+                                        <i class="fas fa-trash"></i>
+                                    </a>
                                 </form>
                             </td>
                             <td>
-                                <p class="my-0">${{ item.product.price }}</p>
+                                <!-- Product Price -->
+                                <p>${{ item.product.price }}</p>
                             </td>
                         </tr>
                         {% endfor %}
                     </tbody>
                 </table>
-              <div class="d-flex justify-content-between">
-                <a  href="{% url 'products' %}" >
-                    <i class="fas fa-arrow-left mr-2"></i> Continue Shopping
-                </a>
-                <div>
-                    <h4>Total: ${{ total|floatformat:2 }}</h4>                
-                    <a href="{% url 'checkout' %}" class="btn btn-black btn-block rounded-0">
-                        <span class="text-uppercase">Go To Secure Checkout</span>
-                        <span class="icon">
-                            <i class="fas fa-lock" aria-hidden="true"></i>
-                        </span>
+
+                <!-- Cart Summary -->
+                <div class="d-flex justify-content-between">
+                    <a href="{% url 'products' %}">
+                        <i class="fas fa-arrow-left mr-2"></i> Continue Shopping
                     </a>
+                    <!-- Cart Totals and Checkout Button -->
+                    <div>
+                        <p class="mt-1 mb-1">Cart Total: ${{ total|floatformat:2 }}</p>
+                        <p class="mt-1 mb-1">Delivery: ${{ delivery|floatformat:2 }}</p>
+                        <p class="mt-1 mb-1"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></p>
+                        {% if free_delivery_delta > 0 %}
+                        <!-- Free Delivery Information -->
+                        <p class="mt-1 mb-1 text-danger">
+                            Spend <strong>${{ free_delivery_delta }}</strong> more for free delivery!
+                        </p>
+                        {% endif %}
+                        <!-- Checkout Button -->
+                        <a href="{% url 'checkout' %}" class="btn btn-black btn-block rounded-1">
+                            <span class="text-uppercase">Go To Secure Checkout</span>
+                            <span class="icon">
+                                <i class="fas fa-lock" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </div>
                 </div>
-                  
-              </div>
-          </div>
-      </div>
-  </div>
-  </section>
+            </div>
+        </div>
+        {% else %}
+        <!-- Displayed when the Cart is empty -->
+        <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
+            <p class="text-uppercase font-monospace text-center">Your cart is empty!</p>
+            <a class="text-center" href="{% url 'products' %}">
+                <i class="fas fa-arrow-left mr-2"></i> Continue Shopping
+            </a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+<!-- End of Cart Section -->
 {% endblock %}
 
 {% block postloadjs %}
 {{ block.super }}
+<!-- Include Quantity Input Script -->
 {% include 'products/includes/quantity_input_script.html' %}
 
 <script type="text/javascript">
     // Remove item and reload on click
-    $('.remove-item').click(function(e) {
+    $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var url = `/cart/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken};
+        var data = { 'csrfmiddlewaretoken': csrfToken };
 
         $.post(url, data)
-        .done(function() {
-            location.reload();
-        });
+            .done(function () {
+                location.reload();
+            });
     })
 </script>
 {% endblock %}
