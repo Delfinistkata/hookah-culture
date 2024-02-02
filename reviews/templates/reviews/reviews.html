@@ -1,6 +1,6 @@
-{% extends "base_v2.html" %}
+{% extends "base.html" %}
 {% load static %}
-
+{% load my_filters %}
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'reviews/css/reviews.css' %}">
 {% endblock %}
@@ -12,74 +12,66 @@
         <h4 class="text-center">
             My Reviews
             </h4>       
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
         {% if reviews %}
             {% for review in reviews %}
-            <div class="card mb-3" style="max-width: 540px;">
-                <div class="row g-0">
-                  <div class="col-md-4">
-                    <img src="..." class="img-fluid rounded-start" alt="...">
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+        
+            <div class="col">
+                <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <a class="link-blue" href="{% url 'product_detail' review.product.id %}">
+                            <img  class="rounded" src="{{ review.product.image.url }}" alt="{{ review.product.name }}"  width="100%" height="200px">
+                        </a>
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">{{ review.title }}</h5>
+                          <div>
+                            <p class="card-text content_review">{{ review.content }}</p>
+                          </div>
+                        
+                          
+                        </div>                
+                      </div>
+                      <div class="card-footer bg-transparent border-success"> 
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <p class="card-text"><small class="text-body-secondary">{{ review.created_on }}</small></p>
+                                </div>                            
+                                <div>
+                                    {%if review.rating %}
+                                    <span class="font-14 mr-2">
+                                        {% for value in review.rating|reviews_range %}
+                                            <i class="fas fa-star text-warning"></i>
+                                        {% endfor %}                                       
+                                    </span>
+                                    {% endif %}
+                                </div>
+                            </div>
                     </div>
-                  </div>
-                </div>
-              </div>  
+                    </div>
+                    <div class="review_actions dropdown">
+                        <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a  href="{% url 'edit_review' review.id %}" class="dropdown-item">Edit</a>  
+                            </li>
+                            <li>
+                                <a href="{% url 'delete_review' review.id %}" class="dropdown-item" id="remove_{{ item.item_id }}">Delete</a>
+                            </li>
+                        
+                          </ul>
+                        
+                    </div>
+                </div>  
+            </div>
+        
             {% endfor %}          
         {% endif%}              
         </div>
     </div>
 </section>
-
-
-    <!-- Page overlay to cover image -->
-    <div class="overlay"></div>
-    <div class="container-fluid">
-
-        <!-- Reviews main header -->
-        <div class="row py-4 border-top border-bottom">
-            <div class="col text-center">
-                <h1 class="text-uppercase mt-3">My Reviews</h1>
-            </div>
-        </div>
-
-        <!-- My reviews -->
-        <div class="row">
-            <div class="col-12 col-lg-8 offset-lg-2">
-                <div class="review-container mt-4">
-                    {% if reviews %}
-                        {% for review in reviews %}
-                            <div class="my-4 pb-4 border-bottom">
-                                <div class="review-product">
-                                    <a class="link-blue" href="{% url 'product_detail' review.product.id %}">
-                                        <img class="border rounded" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
-                                        <h4 class="d-inline py-auto">{{ review.product.name }}</h4>
-                                    </a>
-                                </div>
-                                <h5>{{ review.title }}</h5>
-                                <p>{{ review.content }}</p>
-                                <p class="c--light-blue"><i class="fas fa-star me-1"></i>{{ review.rating }} / 5</p>
-                                <p class="text-muted small d-inline">Created on {{ review.created_on }}</p>
-                                <small class="ms-3 float-end">
-                                    <a href="{% url 'edit_review' review.id %}" class="update-link link-dark">Edit</a>  |
-                                    <a href="{% url 'delete_review' review.id %}" class="remove-item link-blue float-right" id="remove_{{ item.item_id }}">Delete</a>
-                                </small>
-                            </div>
-                        {% endfor %}              
-                    {% else %}
-                        <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
-                            <p class="text-uppercase font-monospace text-center">You haven't reviewed any products yet</p>
-                            <div class="text-center">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black mt-3">Continue Shopping</a>
-                            </div>
-                        </div>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    </div>
 {% endblock %}
