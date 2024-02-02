@@ -1,3 +1,9 @@
+"""
+Views for handling the checkout process
+and related actions.This module includes
+views for the checkout process, caching checkout data,
+handling successful checkouts, and webhook responses.
+"""
 import json
 
 from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
@@ -16,6 +22,11 @@ from .models import Order, OrderLineItem
 
 @require_POST
 def cache_checkout_data(request):
+    """
+    Cache checkout data for Stripe PaymentIntent to
+    ensure that the order total and other 
+    relevant information are captured.
+    """
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -32,6 +43,11 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """
+    This view handles both GET and POST requests
+    for the checkout process, including form validation,
+    order creation, and redirection to success page.
+    """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 
@@ -76,7 +92,7 @@ def checkout(request):
                         "Please call us for assistance!")
                     )
                     order.delete()
-                    return redirect(reverse('view_cart'))            
+                    return redirect(reverse('view_cart'))
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success',
                             args=[order.order_number]))

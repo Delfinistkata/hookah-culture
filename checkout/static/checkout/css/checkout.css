@@ -1,3 +1,4 @@
+/* Global styles for Stripe Element and custom input */
 .StripeElement,
 .stripe-style-input {
     box-sizing: border-box;
@@ -11,44 +12,52 @@
     transition: box-shadow 150ms ease;
 }
 
+/* Styles for focused and active state of Stripe Element and custom input */
 .StripeElement--focus,
 .stripe-style-input:focus,
 .stripe-style-input:active {
     box-shadow: 0 1px 3px 0 #cfd7df;
 }
 
+/* Override styles for Webkit autofill on Stripe Element */
 .StripeElement--webkit-autofill {
     background-color: #fefde5 !important;
 }
 
+/* Placeholder text color for custom input */
 .stripe-style-input::placeholder {
     color: #aab7c4;
 }
 
+/* Styles for fieldset label */
 .fieldset-label {
     position: relative;
     right: .5rem;
 }
 
+/* Styles for specific form controls and card element in payment form */
 #payment-form .form-control,
 #card-element {
     color: #000;
     border: 1px solid #000;
 }
 
+/* Styles for select and its options */
 select,
 select option {
     color: #000000;
 }
 
+/* Styles for invalid select and its options */
 select:invalid,
 select option[value=""] {
     color: #aab7c4 !important;
 }
 
+/* Styles for loading overlay */
 #loading-overlay {
-	display: none;
-	position: fixed;
+    display: none;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -57,8 +66,9 @@ select option[value=""] {
     z-index: 9999;
 }
 
+/* Styles for loading spinner within the overlay */
 .loading-spinner {
-	display: flex;
+    display: flex;
     align-items: center;
     justify-content: center;
     margin: 0;

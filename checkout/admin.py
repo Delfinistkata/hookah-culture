@@ -1,13 +1,29 @@
+"""
+Module for Django admin configuration 
+related to the Order model.
+It the necessary admin classes 
+and configurations for
+managing Order and OrderLineItem models 
+within the Django admin interface.
+"""
 from django.contrib import admin
 from .models import Order, OrderLineItem
 
 
 class OrderLineItemAdminInline(admin.TabularInline):
+    """
+    Inline admin class for OrderLineItem 
+    to be displayed within OrderAdmin.
+    """
     model = OrderLineItem
     readonly_fields = ('lineitem_total',)
 
 
 class OrderAdmin(admin.ModelAdmin):
+    """
+    Admin class for managing Order model 
+    in the Django admin interface.
+    """
     inlines = (OrderLineItemAdminInline,)
 
     readonly_fields = ('order_number', 'date',

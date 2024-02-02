@@ -1,3 +1,10 @@
+"""
+This module defines a Django view `webhook` that listens for
+webhooks from Stripe, verifies the payload's signature, and
+routes the events to appropriate handlers. It uses the
+`StripeWH_Handler` class from `checkout.webhook_handler` to handle
+different webhook events.
+"""
 from django.conf import settings
 from django.http import HttpResponse
 from django.views.decorators.http import require_POST
@@ -11,7 +18,11 @@ from checkout.webhook_handler import StripeWH_Handler
 @require_POST
 @csrf_exempt
 def webhook(request):
-    """Listen for webhooks from Stripe"""
+    """
+    This view function listens for webhooks from Stripe, verifies
+    the payload's signature, and routes the events to appropriate
+    handlers using the `StripeWH_Handler` class.
+    """
     # Setup
     wh_secret = settings.STRIPE_WH_SECRET
     stripe.api_key = settings.STRIPE_SECRET_KEY

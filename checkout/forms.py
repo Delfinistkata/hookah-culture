@@ -1,9 +1,29 @@
+"""
+Django form for the Order model.
+It is is used to collect and validate user
+input for creating or updating
+an order. It inherits from Django's ModelForm
+and customizes the appearance
+of the form fields by setting placeholders,
+classes, and removing auto-generated labels.
+"""
 from django import forms
 from .models import Order
 
 
 class OrderForm(forms.ModelForm):
+    """
+    Form for collecting and validating user input for orders.
+    It captures information related to an order,
+    such as customer details and shipping information.
+    """
     class Meta:
+        """
+        Inner class defining metadata options for the OrderForm.
+        The Meta class specifies metadata options for the OrderForm, 
+        including the associated model and the fields to be included in the form. 
+        These options influence the behavior and appearance of the form when rendered.
+        """
         model = Order
         fields = ('full_name', 'email', 'phone_number',
                 'street_address1', 'street_address2', 'town_or_city', 'postcode',
@@ -34,5 +54,5 @@ class OrderForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'stripe-style-input'
+            self.fields[field].widget.attrs['class'] = 'stripe-style-input mt-1 mb-1'
             self.fields[field].label = False

@@ -1,3 +1,9 @@
+"""
+Handle Stripe webhooks for the checkout app.
+This module defines a class `StripeWH_Handler` 
+responsible for handling various webhook events 
+from Stripe, such as payment success and failure.
+"""
 import json
 import time
 
@@ -14,13 +20,23 @@ from .models import Order, OrderLineItem
 
 
 class StripeWH_Handler:
-    """Handle Stripe webhooks"""
-
+    """
+    This class is responsible for handling 
+    various webhook events from Stripe, including 
+    payment success and failure. It provides methods 
+    for handling different types of webhook events 
+    and taking appropriate actions.
+    """
     def __init__(self, request):
+        """
+        Initialize the Stripe webhook handler.
+        """
         self.request = request
 
     def _send_confirmation_email(self, order):
-        """Send the user a confirmation email"""
+        """
+        Send the user a confirmation email
+        """
         cust_email = order.email
         subject = render_to_string(
             'checkout/confirmation_emails/confirmation_email_subject.txt',
