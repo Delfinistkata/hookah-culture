@@ -1,3 +1,7 @@
+"""
+Views for the 'cart' app,
+managing shopping cart functionality.
+"""
 from django.shortcuts import render, redirect, HttpResponse, get_object_or_404, reverse
 from django.contrib import messages
 from products.models import Product
@@ -5,14 +9,17 @@ from products.models import Product
 # Create your views here.
 
 def view_cart(request):
-    """ A view that renders the cart contents page """
-
+    """
+    A view that renders the cart contents page.
+    """
     return render(request, 'cart/cart.html')
 
 def add_to_cart(request, item_id):
-    """ Add a quantity of the specified product to the shopping cart """
-
-    product = get_object_or_404(Product, pk=item_id)    
+    """
+    Add a quantity of the specified
+    product to the shopping cart.
+    """
+    product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
 
@@ -35,7 +42,11 @@ def add_to_cart(request, item_id):
 
 
 def adjust_cart(request, item_id):
-    """Adjust the quantity of the specified product to the specified amount"""
+    """
+    Adjust the quantity of the specified
+    product to the specified amount.
+
+    """
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
@@ -54,8 +65,9 @@ def adjust_cart(request, item_id):
 
 
 def remove_from_cart(request, item_id):
-    """Remove the item from the shopping cart"""
-
+    """
+    Remove the item from the shopping cart.
+    """
     try:
         product = get_object_or_404(Product, pk=item_id)
         cart = request.session.get('cart', {})
