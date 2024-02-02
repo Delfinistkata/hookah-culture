@@ -27,7 +27,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu107.gitpod.io']
 
 
 # Application definition
