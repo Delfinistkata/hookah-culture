@@ -1,15 +1,13 @@
-html {
-    height: 100%;
-}
-
-body {
+/* Main Section */
+.main {
+    height: 100vh;
     background: url('/media/shisha.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
     color: #5a5a5a;
-    font-family: 'Monserrat';
+    font-family: 'Mulish', sans-serif;
 }
 
+/* Bulma Icon */
 /* from Bulma */
 .icon {
     align-items: center;
@@ -19,20 +17,12 @@ body {
     width: 1.5rem;
 }
 
-.logo-font {
-    text-transform: uppercase;
-}
-
+/* Main Logo Link */
 .main-logo-link {
     width: fit-content;
 }
 
-.shop-now-button {
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
+/* Buttons and Badges */
 .btn-black {
     background: black;
     color: white;
@@ -40,10 +30,11 @@ body {
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: black !important;
     border: 1px solid black;
 }
 
+/* Hover Effects for Buttons and Badges */
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
@@ -61,33 +52,34 @@ body {
     color: white;
 }
 
+/* Text Color */
 .text-black {
     color: #000 !important;
 }
 
+/* Border Color */
 .border-black {
     border: 1px solid black !important;
 }
 
-.bg-black {
-    background: #9e00ac !important;
-}
-
+/* Overlay */
 .overlay {
-	height: 100%;
-	width: 100%;
-	top: 0;
-	left: 0;
-	position: fixed;
-	background: white;
-	z-index: -1;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    background: white;
+    z-index: -1;
 }
 
-a.category-badge > span.badge:hover {
+/* Category Badge Hover Effect */
+a.category-badge>span.badge:hover {
     background: #9e00ac !important;
     color: #fff !important;
 }
 
+/* Back to Top Button */
 .btt-button {
     height: 42px;
     width: 42px;
@@ -96,18 +88,19 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
+/* Link Styles */
 .btt-link,
 .update-link,
 .remove-item {
     cursor: pointer;
 }
 
+/* Input Placeholder Color */
 input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* bootstrap toasts */
-
+/* Bootstrap Toast Messages */
 .message-container {
     position: fixed;
     top: 72px;
@@ -123,19 +116,20 @@ input[name='q']::placeholder {
     height: 2px;
 }
 
+/* CSS Tricks - Triangle */
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
-    width: 0; 
-    height: 0; 
+    width: 0;
+    height: 0;
     border-left: 4px solid transparent;
-    border-right: 4px solid transparent; 
+    border-right: 4px solid transparent;
     border-bottom: 10px solid black;
     position: absolute;
     top: -10px;
     right: 36px;
 }
 
-/* Convenience classes - colors copied from Bootstrap */
+/* Convenience Classes - Colors from Bootstrap */
 .arrow-primary {
     border-bottom-color: #007bff !important;
 }
@@ -168,143 +162,63 @@ input[name='q']::placeholder {
     border-bottom-color: #343a40 !important;
 }
 
+/* Cart Notification Wrapper */
 .bag-notification-wrapper {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
 }
 
-/* Wishlist */
-.wishlist-prod {
-    height: 155px;
-    width: 155px;
-    object-fit: contain;
+
+/* Reviews Section */
+.content_review {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
 }
 
-.wishlist-icon {
-    height: 20px;
-    width: 20px;
+/* Review Actions */
+.review_actions {
+    right: 5px;
+    position: absolute;
+    top: 15px;
 }
 
-.wishlist-delete {
-    font-size: 18px;
+/* Footer Styling */
+.footer-section {
+    background-color: #1c2331;
 }
 
-.wishlist-border {
-    border: 2px dashed #194f4990;
-    border-radius: 20px;
+.footer-section-social-media {
+    background-color: #6351ce;
 }
 
-a.wishlist-delete:hover {
-    color: var(--gold);
+/* Badge Styling */
+.badge {
+    right: 5px;
+    position: absolute;
+    top: 15px;
+    color: #ffffff;
+    background-color: rgba(66, 49, 68, 0.26);
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
 }
 
-.wishlist-btn {
-    border-radius: 15px;
-    background: linear-gradient(to bottom, #e5ede8, #b5c9bd);
-    color: var(--forest);
-    border: none;
-    filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
-    transition: transform 0.3s ease;
-    transform-origin: center;
-    font-size: 16px;
-    display: inline-flex;
-    align-items: center;
-    height: 100%;
+/* Navbar Link Color */
+.nav-link {
+    color: white;
 }
-
-.wishlist-btn:hover {
-    transform: scale(1.05);
-    background-color: #e1f0e7;
-    color: var(--purple);
-}
-
-.wishlist-btn:active {
-    transform: scale(0.95);
-    border: none;
-}
-
-.wishlist-btn:focus {
-    outline: none !important;
-    outline-width: 0 !important;
-    box-shadow: none;
-    -moz-box-shadow: none;
-    -webkit-box-shadow: none;
-    border: none;
-    color: var(--purple);
-}
-
-
-/* -------------------------------- Media Queries */
-
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
-    }
-}
-
-  /* Allauth form formatting */
-
-    .allauth-form-inner-content p {
-        margin-top: 1.5rem; /* mt-4 */
-        color: #6c757d; /* text-secondary */
-    }
-
-    .allauth-form-inner-content input {
-        border-color: #000;
-        border-radius: 0;
-    }
-    
-    .allauth-form-inner-content label:not([for='id_remember']) {
-        display: none;
-    }
-    
-    .allauth-form-inner-content input::placeholder {
-        color: #aab7c4;
-    }
-    
-    .allauth-form-inner-content button,
-    .allauth-form-inner-content input[type='submit'] {
-        /* btn */
-        display: inline-block;
-        font-weight: 400;
-        color: #fff;
-        text-align: center;
-        vertical-align: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        background-color: #000;
-        border: 1px solid #000;
-        padding: .375rem .75rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        border-radius: 0;
-    
-        /* standard bootstrap btn transitions */
-        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-        }
-
-        .allauth-form-inner-content button:hover,
-        .allauth-form-inner-content input[type='submit']:hover {	
-        color: #fff;
-        background-color: #222;
-        border-color: #222;
-        }
-    
-    .allauth-form-inner-content a {
-        color: #17a2b8; /* text-info */
-        }
 
 /* Product Form */
-
+/* File Input Button */
 .btn-file {
     position: relative;
     overflow: hidden;
 }
 
+/* File Input Styles */
 .btn-file input[type="file"] {
     position: absolute;
     top: 0;
@@ -315,18 +229,86 @@ a.wishlist-delete:hover {
     cursor: pointer;
 }
 
+/* Custom Checkbox Styling */
 .custom-checkbox .custom-control-label::before {
     border-radius: 0;
     border-color: #dc3545;
 }
 
+/* Checked Custom Checkbox Styles */
 .custom-checkbox .custom-control-input:checked~.custom-control-label::before {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
 }
 
-/* fixed top navbar only on medium and up */
+/* Allauth Form Formatting */
+.allauth-form-inner-content p {
+    margin-top: 1.5rem;
+    color: #6c757d;
+}
+
+/* Allauth Form Input Styles */
+.allauth-form-inner-content input {
+    border-color: #000;
+    border-radius: 1;
+}
+
+/* Allauth Form Label Styles */
+.allauth-form-inner-content label:not([for='id_remember']) {
+    display: none;
+}
+
+/* Allauth Form Input Placeholder Color */
+.allauth-form-inner-content input::placeholder {
+    color: #aab7c4;
+}
+
+/* Allauth Form Button Styles */
+.allauth-form-inner-content button,
+.allauth-form-inner-content input[type='submit'] {
+    /* btn */
+    display: inline-block;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: #000;
+    border: 1px solid #000;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 0;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+/* Allauth Form Button Hover Effect */
+.allauth-form-inner-content button:hover,
+.allauth-form-inner-content input[type='submit']:hover {
+    color: #fff;
+    background-color: #222;
+    border-color: #222;
+}
+
+/* Allauth Form Link Styles */
+.allauth-form-inner-content a {
+    color: #17a2b8;
+}
+
+/* Media Queries */
+
+/* Larger Container on XL Screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+/* Fixed Top Navbar only on Medium and Up Screens */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
         position: fixed;
@@ -341,7 +323,7 @@ a.wishlist-delete:hover {
     }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
+/* Padding Adjustment for Collapsed Navbar on Mobile */
 @media (max-width: 991px) {
     .header-container {
         padding-top: 116px;
