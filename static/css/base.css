@@ -332,4 +332,5 @@ input[name='q']::placeholder {
     body {
         height: calc(100vh - 116px);
     }
+
 }
