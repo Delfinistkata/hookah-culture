@@ -25,10 +25,10 @@ class Product(models.Model):
     price = models.DecimalField(max_digits=6, decimal_places=2)
     stock = models.IntegerField(default=0)
     image = models.ImageField(null=True, blank=True)
-    
+
     @property
     def rating(self):
         return self.reviews.aggregate(avg_rating=Avg('rating'))['avg_rating']
-        
+
     def __str__(self):
         return self.name

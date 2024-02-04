@@ -2,7 +2,9 @@
 Views for the 'cart' app,
 managing shopping cart functionality.
 """
-from django.shortcuts import render, redirect, HttpResponse, get_object_or_404, reverse
+from django.shortcuts import (
+    render, redirect, HttpResponse, get_object_or_404, reverse
+)
 from django.contrib import messages
 from products.models import Product
 
