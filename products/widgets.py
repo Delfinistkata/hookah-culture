@@ -1,8 +1,19 @@
+"""
+Custom Django form widget for
+handling clearable file inputs with localization.
+"""
 from django.forms.widgets import ClearableFileInput
 from django.utils.translation import gettext_lazy as _
 
 
 class CustomClearableFileInput(ClearableFileInput):
+    """
+    This class extends Django's 
+    'ClearableFileInput' to create
+    a custom file input widget that includes 
+    localized labels for the clear checkbox,
+    initial text, and input text.
+    """
     clear_checkbox_label = _('Remove')
     initial_text = _('Current Image')
     input_text = _('')

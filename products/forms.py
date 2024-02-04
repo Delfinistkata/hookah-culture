@@ -1,17 +1,38 @@
+"""
+Django form for the 'Product' model.
+This form is used to handle the
+input and validation for creating or
+updating Product instances.
+"""
 from django import forms
 from .widgets import CustomClearableFileInput
 from .models import Product, Category
 
 
 class ProductForm(forms.ModelForm):
-
+    """
+    Form class for handling Product model instances.
+    """
     class Meta:
+        """
+        Metadata options for the ProductForm.
+        This Meta class provides additional
+        information about the behavior
+        of the ProductForm, including the
+        associated model and the fields
+        to include in the form.
+        """
         model = Product
         fields = '__all__'
 
     image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
+        """
+        Custom initialization method for the ProductForm.
+        This method sets up form fields,
+        placeholders, and widget attributes.
+        """
         super().__init__(*args, **kwargs)
         placeholders = {
             'category': 'Category',

@@ -1,56 +1,66 @@
 {% load my_filters %}
+<!-- Load custom filters from 'my_filters' -->
 
 <style>
-.card-img-top1{
-    object-fit: scale-down;
-    margin-top: 10px 
-}
+    /* Style for card image top */
+    .card-img-top1{
+        object-fit: scale-down;
+        margin-top: 10px;
+    }
 </style>
+
 <div class="col">
+    <!-- Column for displaying product information -->
     <div class="card shadow border-dark">
         {% if product.image %}
+            <!-- Display product image if available -->
             <a href="{% url 'product_detail' product.id %}">
                 <img class="card-img-top1 image-product" src="{{ product.image.url }}" alt="{{ product.name }}" width="100%" height="300px">
             </a>
         {% else %}
+            <!-- Display a default image if product has no image -->
             <a href="{% url 'product_detail' product.id %}">
                 <img class="card-img-top image-product" src="{{ MEDIA_URL }}noimage.png" alt="{{ product.name }}" width="100%" height="300" >
             </a>
         {% endif %}
-        <span class="badge text-white ">   
+        <span class="badge text-white">   
+            <!-- Display product category as a badge -->
             <i class="fas fa-tag mr-1"></i>
             {{ product.category.friendly_name }}
         </span>
         <hr>                                            
-    <div class="card-body">
-        <div class="d-flex justify-content-between">
-            <p class="text">{{ product.name }}</p>
-            
-            {% if show_remove == 0 %}
-            <a href="{% url 'add_to_wishlist' product.id %}">
-                <!-- Add in the model product by user logged if the product exist in his wishlist -->
-                <i class="fa-solid fa-heart" style="color: #B197FC; display: none;"></i>                
-                <i class="fa-regular fa-heart" style="color: #B197FC;"></i>
-            </a>              
-            {% else %}
-            <a href="{% url 'remove_from_wishlist' item.product.id %}">
-                    <i class="fa-solid fa-trash" style="color: #B197FC;"></i>
-                </a>
-            {% endif %}
+        <div class="card-body">
+            <!-- Card body for product details -->
+            <div class="d-flex justify-content-between">
+                <!-- Display product name and optional heart icon for wishlist -->
+                <p class="text">{{ product.name }}</p>
+                {% if show_remove == 0 %}
+                    <!-- Display heart icon for adding to wishlist -->
+                    <a href="{% url 'add_to_wishlist' product.id %}">
+                        <i class="fa-solid fa-heart" style="color: #B197FC; display: none;"></i>                
+                        <i class="fa-regular fa-heart" style="color: #B197FC;"></i>
+                    </a>              
+                {% else %}
+                    <!-- Display trash icon for removing from wishlist -->
+                    <a href="{% url 'remove_from_wishlist' item.product.id %}">
+                        <i class="fa-solid fa-trash" style="color: #B197FC;"></i>
+                    </a>
+                {% endif %}
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+                <!-- Display product price and optional star rating -->
+                <p class="h6 mb-0 text-left font-weight-bold ">${{ product.price }}</p>
+                <small class="text-body-secondary">                                    
+                    {%if product.rating %}
+                        <!-- Display star icons for product rating -->
+                        <span class="font-14 mr-2">
+                            {% for value in product.rating|reviews_range %}
+                                <i class="fas fa-star text-warning"></i>
+                            {% endfor %}
+                        </span>
+                    {% endif %}
+                </small>
+            </div>
         </div>
-    <div class="d-flex justify-content-between align-items-center">
-        <p class="h6 mb-0 text-left font-weight-bold ">${{ product.price }}</p>
-        <small class="text-body-secondary">                                    
-        {%if product.rating %}
-        <span class="font-14 mr-2">
-            {% for value in product.rating|reviews_range %}
-                <i class="fas fa-star text-warning"></i>
-            {% endfor %}
-           
-        </span>
-        {% endif %}
-    </small>
-    </div>
-    </div>
     </div>
 </div>

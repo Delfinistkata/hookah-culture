@@ -1,3 +1,8 @@
+"""
+Django urlpatterns for the 'products' app.
+This module defines the urlpatterns for
+handling various views related to products in the application.
+"""
 from django.urls import path
 from . import views
 

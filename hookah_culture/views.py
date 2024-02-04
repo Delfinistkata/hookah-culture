@@ -1,3 +1,8 @@
+"""
+Django Shortcuts - Render Function
+Renders a Django template to an
+HttpResponse object with a given context.
+"""
 from django.shortcuts import render
 
 
