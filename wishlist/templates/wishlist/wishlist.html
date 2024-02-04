@@ -27,50 +27,6 @@
                 </div>
             {% endif %}
         </div> 
-        <!-- Wishlist details in a list -->
-        <div class="row wishlist-border p-2 mb-2 m-2 shadow" style="display: none;">
-            <div class="col-12">
-                {% if user_wishlist %}
-                    <!-- Display each wishlist item in a list format -->
-                    <ul class="list-group">
-                        {% for item in user_wishlist %}
-                            <li class="list-group-item">
-                                <div class="row align-items-center">
-                                    <div class="col-lg-2 col-sm-4">
-                                        <!-- Display product image with link to product detail page -->
-                                        <a href="{% url 'product_detail' item.product.id %}">
-                                            {% if item.product.image %}
-                                                <img class="w-100 wishlist-prod" src="{{ item.product.image.url }}" alt="{{ item.product.name }}">
-                                            {% else %}
-                                                <img class="w-100 wishlist-prod" src="{{ MEDIA_URL }}noimage.png" alt="{{ item.product.name }}">
-                                            {% endif %}
-                                        </a>
-                                    </div>
-                                    <div class="col-lg-6 col-sm-4 text-left">
-                                        <!-- Display product name -->
-                                        <p class="my-0">{{ item.product.name }}</p>
-                                    </div>
-                                    <div class="col-lg-4 col-sm-4">
-                                        <!-- Remove from wishlist link -->
-                                        <a href="{% url 'remove_from_wishlist' item.product.id %}" class="wishlist-delete">
-                                            <i class="fas fa-trash wishlist-icon"></i> Remove
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% else %}
-                    <!-- Display message when wishlist is empty -->
-                    <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
-                        <p class="text-uppercase font-monospace text-center">Your wishlist is empty.</p>
-                        <div class="text-center">
-                            <a href="{% url 'products' %}" class="btn btn-outline-black mt-3">Continue Shopping</a>
-                        </div>
-                    </div>
-                {% endif %}
-            </div>
-        </div>
     </div>
 
     <!-- Wishlist pagination -->
