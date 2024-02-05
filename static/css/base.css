@@ -299,6 +299,40 @@ input[name='q']::placeholder {
     color: #17a2b8;
 }
 
+/* Trash Icon */
+.trash-icon {
+    color: #B197FC;
+}
+
+/* Heart Icon */
+.heart-icon-empty {
+    color: #B197FC;
+    display: none;
+}
+
+/* style for card image top */
+.card-img-top1{
+    object-fit: scale-down;
+    margin-top: 10px;
+}
+
+/* style for footer hr element */
+.shop-content {
+    width: 60px;
+    background-color: #7c4dff;
+    height: 2px;
+}
+
+/* style for footer */
+.footer-bar {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* style for search icon */
+.search-icon {
+    color: #B197FC;
+}
+
 /* Media Queries */
 
 /* Larger Container on XL Screens */
