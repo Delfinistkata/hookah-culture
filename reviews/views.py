@@ -1,3 +1,10 @@
+"""
+Django views for handling user reviews.
+This module defines views for various
+operations related to user reviews, including
+showing reviews, adding a new review, editing
+an existing review, and deleting a review.
+"""
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -8,7 +15,9 @@ from .forms import ReviewForm
 
 @login_required
 def show_reviews(request):
-    """ A view to show the user's product reviews """
+    """
+    A view to show the user's product reviews.
+    """
     reviews = Review.objects.filter(author=request.user)
 
     context = {
@@ -20,7 +29,9 @@ def show_reviews(request):
 
 @login_required
 def add_review(request, product_id):
-    """ Display form to add a review to a product """
+    """
+    Display form to add a review to a product
+    """
     product = get_object_or_404(Product, pk=product_id)
     user_review = Review.objects.filter(
         author=request.user, product=product)
@@ -58,7 +69,9 @@ def add_review(request, product_id):
 
 @login_required
 def edit_review(request, review_id):
-    """ Display form to edit a review """
+    """
+    Display form to edit a review
+    """
     review = get_object_or_404(Review, pk=review_id)
 
     if request.user != review.author:
@@ -92,7 +105,9 @@ def edit_review(request, review_id):
 
 @login_required
 def delete_review(request, review_id):
-    """ Delete an existing review """
+    """
+    Delete an existing review
+    """
     review = get_object_or_404(Review, pk=review_id)
 
     if request.user != review.author:

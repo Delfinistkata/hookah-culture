@@ -1,3 +1,10 @@
+"""
+Django admin configuration for the Wishlist model.
+This module defines the configuration for
+the Django admin interface related to the Wishlist model.
+It specifies the display fields, ordering,
+and other settings for the Wishlist model in the admin interface.
+"""
 from django.contrib import admin
 from .models import Wishlist
 

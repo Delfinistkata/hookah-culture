@@ -1,3 +1,10 @@
+"""
+Django URL patterns for handling reviews.
+This module defines URL patterns for views
+related to user reviews, including
+showing reviews, adding a new review,
+editing an existing review, and deleting a review.
+"""
 from django.urls import path
 from .import views
 

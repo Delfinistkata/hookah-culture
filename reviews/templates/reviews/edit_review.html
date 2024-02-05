@@ -2,25 +2,29 @@
 {% load static %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'reviews/css/reviews.css' %}">
+    <!-- Include additional CSS specific to the reviews page -->
+    <link rel="stylesheet" href="{% static 'reviews/css/reviews.css' %}">
 {% endblock %}
 
 {% block content %}
     <div class="container">
         <div class="row">
-            <!-- Product Information -->
-            <div class="col-12 col-md-6 mt-5  mb-3">
+            <!-- Product Information Section -->
+            <div class="col-12 col-md-6 mt-5 mb-3">
                 <div class="shadow-lg p-3 bg-body-tertiary rounded">
+                    <!-- Heading for the Product Information section -->
                     <h2 class="text-muted text-center text-uppercase">Product Information</h2>
                     <div class="row">
                         <div class="col-6 mb-3">
                             {% if review.product.image %}
+                                <!-- Display product image if available, else show a default image -->
                                 <img class="w-100" src="{{ review.product.image.url }}" alt="{{ review.product.name }}">
                             {% else %}
                                 <img class="w-100" src="{{ MEDIA_URL }}noimage.png" alt="{{ review.product.name }}">
                             {% endif %}
                         </div>
                         <div class="col-6 mb-3">
+                            <!-- Display product name and description -->
                             <p>{{ review.product.name }}</p>
                             <p>{{ review.product.description }}</p>
                         </div>
@@ -28,22 +32,24 @@
                 </div>
             </div>
 
-            <!-- Edit Review Form -->
+            <!-- Edit Review Form Section -->
             <div class="col-12 col-md-6 mt-5 mb-3">
                 <div class="shadow-lg p-3 bg-body-tertiary rounded">
+                    <!-- Heading for the Edit Review Form section -->
                     <h2 class="text-muted text-center text-uppercase">Edit Review</h2>
+                    <!-- Review edit form with CSRF token and crispy form rendering -->
                     <form method="POST" action="{% url 'edit_review' review.id %}" id="review-form" class="text-muted form mb-5"
                         enctype="multipart/form-data">
                         {% csrf_token %}
                         {{ form | crispy }}
                         <div class="text-center">
+                            <!-- Submit and Cancel buttons for the form -->
                             <button class="btn btn-primary mt-3" type="submit">Update Review</button>
                             <a class="btn btn-outline-black mt-3" href="{% url 'product_detail' review.product.id %}">Cancel</a>
                         </div>
                     </form>
                 </div>
             </div>
-
         </div>
     </div>
 {% endblock %}

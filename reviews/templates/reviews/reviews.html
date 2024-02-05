@@ -1,77 +1,88 @@
 {% extends "base.html" %}
 {% load static %}
 {% load my_filters %}
+
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'reviews/css/reviews.css' %}">
+    <!-- Include additional CSS specific to the reviews page -->
+    <link rel="stylesheet" href="{% static 'reviews/css/reviews.css' %}">
 {% endblock %}
 
 {% block content %}
-
-<section class="py-5">
-    <div class="container">
-        <h4 class="text-center">
-            My Reviews
-            </h4>       
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-        {% if reviews %}
-            {% for review in reviews %}
-        
-            <div class="col">
-                <div class="card mb-3" style="max-width: 540px;">
-                    <div class="row g-0">
-                      <div class="col-md-4">
-                        <a class="link-blue" href="{% url 'product_detail' review.product.id %}">
-                            <img  class="rounded" src="{{ review.product.image.url }}" alt="{{ review.product.name }}"  width="100%" height="200px">
-                        </a>
-                      </div>
-                      <div class="col-md-8">
-                        <div class="card-body">
-                          <h5 class="card-title">{{ review.title }}</h5>
-                          <div>
-                            <p class="card-text content_review">{{ review.content }}</p>
-                          </div>
-                        
-                          
-                        </div>                
-                      </div>
-                      <div class="card-footer bg-transparent border-success"> 
-                            <div class="d-flex justify-content-between">
-                                <div>
-                                    <p class="card-text"><small class="text-body-secondary">{{ review.created_on }}</small></p>
-                                </div>                            
-                                <div>
-                                    {%if review.rating %}
-                                    <span class="font-14 mr-2">
-                                        {% for value in review.rating|reviews_range %}
-                                            <i class="fas fa-star text-warning"></i>
-                                        {% endfor %}                                       
-                                    </span>
-                                    {% endif %}
+    <!-- Reviews Section -->
+    <section class="py-5">
+        <div class="container">
+            <h4 class="text-center">
+                My Reviews
+            </h4>
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+                {% if reviews %}
+                    {% for review in reviews %}
+                        <!-- Review Card -->
+                        <div class="col">
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <!-- Product Image Column -->
+                                    <div class="col-md-4">
+                                        <!-- Link to the product detail page -->
+                                        <a class="link-blue" href="{% url 'product_detail' review.product.id %}">
+                                            <!-- Display the product image or a default image if not available -->
+                                            <img class="rounded" src="{{ review.product.image.url }}" alt="{{ review.product.name }}" width="100%" height="200px">
+                                        </a>
+                                    </div>
+                                    <!-- Review Details Column -->
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <!-- Review Title -->
+                                            <h5 class="card-title">{{ review.title }}</h5>
+                                            <div>
+                                                <!-- Review Content -->
+                                                <p class="card-text content_review">{{ review.content }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Review Footer -->
+                                    <div class="card-footer bg-transparent border-success">
+                                        <div class="d-flex justify-content-between">
+                                            <!-- Display the review creation timestamp -->
+                                            <div>
+                                                <p class="card-text"><small class="text-body-secondary">{{ review.created_on }}</small></p>
+                                            </div>
+                                            <!-- Display the star rating if available -->
+                                            <div>
+                                                {% if review.rating %}
+                                                    <span class="font-14 mr-2">
+                                                        {% for value in review.rating|reviews_range %}
+                                                            <i class="fas fa-star text-warning"></i>
+                                                        {% endfor %}
+                                                    </span>
+                                                {% endif %}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Review Actions Dropdown -->
+                                <div class="review_actions dropdown">
+                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="fa-solid fa-bars"></i>
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <!-- Edit Review Option -->
+                                        <li>
+                                            <a href="{% url 'edit_review' review.id %}" class="dropdown-item">Edit</a>
+                                        </li>
+                                        <!-- Delete Review Option -->
+                                        <li>
+                                            <a href="{% url 'delete_review' review.id %}" class="dropdown-item" id="remove_{{ item.item_id }}">Delete</a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
-                    </div>
-                    </div>
-                    <div class="review_actions dropdown">
-                        <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
-                            <i class="fa-solid fa-bars"></i>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a  href="{% url 'edit_review' review.id %}" class="dropdown-item">Edit</a>  
-                            </li>
-                            <li>
-                                <a href="{% url 'delete_review' review.id %}" class="dropdown-item" id="remove_{{ item.item_id }}">Delete</a>
-                            </li>
-                        
-                          </ul>
-                        
-                    </div>
-                </div>  
+                        </div>
+                        <!-- End of Review Card -->
+                    {% endfor %}
+                {% endif %}
             </div>
-        
-            {% endfor %}          
-        {% endif%}              
         </div>
-    </div>
-</section>
+    </section>
+    <!-- End of Reviews Section -->
 {% endblock %}

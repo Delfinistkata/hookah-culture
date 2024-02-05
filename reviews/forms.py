@@ -1,3 +1,11 @@
+"""
+This module defines a Django form class
+`ReviewForm` for handling user reviews.
+It utilizes the Review model from the same
+app and includes fields for title, content,
+and rating. The rating field is presented as
+a radio button set.
+"""
 from django import forms
 from .models import Review
 
@@ -8,7 +16,17 @@ RATINGS = [(1, 'Very bad'),
             (5, 'Great!')]
 
 class ReviewForm(forms.ModelForm):
+    """
+    Django form class for handling reviews.
+    """
     class Meta:
+        """
+        Meta class for ReviewForm.
+        This class defines metadata options
+        for the ReviewForm, specifying the model
+        it is associated with (Review) and
+        the fields it includes.
+        """
         model = Review
         fields = ('title', 'content', 'rating')
 
@@ -19,6 +37,11 @@ class ReviewForm(forms.ModelForm):
     )
 
     def __init__(self, *args, **kwargs):
+        """
+        Initialize the ReviewForm.
+        This method sets up additional
+        attributes and styling for the form.
+        """
         super().__init__(*args, **kwargs)
 
         self.fields['content'].widget.attrs['rows'] = 2
