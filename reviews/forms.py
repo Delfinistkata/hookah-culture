@@ -9,11 +9,11 @@ a radio button set.
 from django import forms
 from .models import Review
 
-RATINGS = [(1, 'Very bad'),
-            (2, 'Bad'),
+RATINGS = [(1, 'Very poor'),
+            (2, 'Poor'),
             (3, 'Ok'),
             (4, 'Good'),
-            (5, 'Great!')]
+            (5, 'Excellent')]
 
 class ReviewForm(forms.ModelForm):
     """
