@@ -11,8 +11,11 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import os
 import dj_database_url
+import os
+if os.path.exists("env.py"):
+    import env
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -27,7 +30,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu107.gitpod.io']
+ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu107.gitpod.io', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -40,9 +43,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
+    # Allauth
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
+    # Apps
     'home',
     'products',
     'cart',
@@ -71,6 +76,7 @@ MIDDLEWARE = [
 
 SITE_ID = 1
 
+# all auth settings
 ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
 ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
@@ -94,12 +100,16 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
+                # required by allauth
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
+                # makes cart_contents available across all apps
                 'cart.contexts.cart_contents',
+                # makes wishlist form available across all apps
                 'wishlist.contexts.wishlist_items',
+                # makes subscribe form available across all apps
                 'newsletters.contexts.render_subscribe_form',
             ],
             'builtins': [
