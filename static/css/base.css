@@ -333,6 +333,11 @@ input[name='q']::placeholder {
     color: #B197FC;
 }
 
+.banner {
+    background-color: rgba(0, 0, 0, 0.689);
+}
+
+
 /* Media Queries */
 
 /* Larger Container on XL Screens */
