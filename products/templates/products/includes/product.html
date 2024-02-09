@@ -42,17 +42,31 @@
             </div>
             <div class="d-flex justify-content-between align-items-center">
                 <!-- Display product price and optional star rating -->
-                <p class="h6 mb-0 text-left font-weight-bold ">${{ product.price }}</p>
-                <small class="text-body-secondary">                                    
-                    {%if product.rating %}
+                <p class="h6 mb-0 text-left font-weight-bold ">€{{ product.price }}</p>
+                <small class="text-body-secondary">
+                    {% if product.rating %}
                         <!-- Display star icons for product rating -->
                         <span class="font-14 mr-2">
                             {% for value in product.rating|reviews_range %}
                                 <i class="fas fa-star text-warning"></i>
                             {% endfor %}
                         </span>
+                        <span class="ms-1">
+                            {{ product.rating | floatformat }} / 5
+                        </span>
+                    {% else %}
+                        <!-- Display empty star icons when no rating is available -->
+                        <span class="font-14 mr-2">
+                            {% for _ in 1|reviews_range %}
+                                <i class="far fa-star text-warning"></i>
+                            {% endfor %}
+                        </span>
+                        <span class="ms-1">
+                            No rating yet
+                        </span>
                     {% endif %}
                 </small>
+                
             </div>
         </div>
     </div>
