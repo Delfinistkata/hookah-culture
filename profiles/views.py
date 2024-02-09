@@ -3,6 +3,7 @@ Views for the 'profiles' app.
 This module defines views related to user profiles in the 'profiles' app.
 """
 from django.shortcuts import render, get_object_or_404
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from checkout.models import Order
@@ -28,10 +29,22 @@ def profile(request):
         form = UserProfileForm(instance=profile)
     orders = profile.orders.all()
 
+    orders_per_page = 4
+    paginator = Paginator(orders, orders_per_page)
+    page = request.GET.get('page')
+
+    try:
+        orders_page = paginator.page(page)
+    except PageNotAnInteger:
+        orders_page = paginator.page(1)
+    except EmptyPage:
+        orders_page = paginator.page(paginator.num_pages)
+
     template = 'profiles/profile.html'
     context = {
         'form': form,
         'orders': orders,
+        'orders_page': orders_page,
         'on_profile_page': True
     }
 

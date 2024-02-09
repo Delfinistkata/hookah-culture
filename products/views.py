@@ -95,6 +95,17 @@ def product_detail(request, product_id):
     products = Product.objects.all()
     products_related = products.filter(category=categoryId)
 
+    # Pagination
+    products_per_page = 3
+    page = request.GET.get('page', 1)
+    paginator = Paginator(products, products_per_page)
+    try:
+        products_related = paginator.page(page)
+    except PageNotAnInteger:
+        products_related = paginator.page(1)
+    except EmptyPage:
+        products_related = paginator.page(paginator.num_pages)
+
     context = {
         'product': product,
         'products_related': products_related        

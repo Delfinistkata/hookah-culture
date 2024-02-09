@@ -5,6 +5,7 @@ operations related to user reviews, including
 showing reviews, adding a new review, editing
 an existing review, and deleting a review.
 """
+from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render, get_object_or_404, redirect, reverse
 from django.contrib import messages
 from django.contrib.auth.decorators import login_required
@@ -19,6 +20,17 @@ def show_reviews(request):
     A view to show the user's product reviews.
     """
     reviews = Review.objects.filter(author=request.user)
+
+    # Pagination
+    reviews_per_page = 4
+    page = request.GET.get('page', 1)
+    paginator = Paginator(reviews, reviews_per_page)
+    try:
+        reviews = paginator.page(page)
+    except PageNotAnInteger:
+        reviews = paginator.page(1)
+    except EmptyPage:
+        reviews = paginator.page(paginator.num_pages)
 
     context = {
         'reviews': reviews,
