@@ -118,9 +118,9 @@
                     <div><i class="fas fa-shopping-bag fa-lg"></i></div>
                     <p class="my-0">
                       {% if grand_total %}
-                      ${{ grand_total|floatformat:2 }}
+                      €{{ grand_total|floatformat:2 }}
                       {% else %}
-                      $0.00
+                      €0.00
                       {% endif %}
                     </p>
                   </div>
@@ -128,16 +128,34 @@
               </li>
             </ul>
           {% else %}
-          
           <!-- Login and Sign-up buttons for unauthenticated users -->
           <div class="navbar-nav mb-2 mb-lg-0">
             <a type="button" href="{% url 'account_login' %}" class="btn btn-outline-light me-2">Login</a>
           </div>
           <div class="navbar-nav mb-2 mb-lg-0">
             <a type="button" href="{% url 'account_signup' %}" class="btn btn-warning">Sign-up</a>
-        </div>
+          </div>
+          <div class="navbar-nav mb-2 mb-lg-0">
+            <a class="nav-link" href="{% url 'view_cart' %}">
+              <div class="text-center">
+                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+                <p class="my-0">
+                  {% if grand_total %}
+                  €{{ grand_total|floatformat:2 }}
+                  {% else %}
+                  €0.00
+                  {% endif %}
+                </p>
+              </div>
+            </a>
+          </div>
         {% endif %}
         </div>
     </div>
+  </div>
   </nav>
+  <div class="row text-center">
+    <div class="col text-white banner">
+        <h4 class="text-uppercase py-2">Free delivery on all orders over €{{ free_delivery_threshold }}!</h4>                
+    </div>  
 </header>

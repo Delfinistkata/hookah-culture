@@ -86,7 +86,7 @@
                             </td>
                             <td>
                                 <!-- Product Price -->
-                                <p>${{ item.product.price }}</p>
+                                <p>€{{ item.product.price }}</p>
                             </td>
                         </tr>
                         {% endfor %}
@@ -100,13 +100,13 @@
                     </a>
                     <!-- Cart Totals and Checkout Button -->
                     <div>
-                        <p class="mt-1 mb-1">Cart Total: ${{ total|floatformat:2 }}</p>
-                        <p class="mt-1 mb-1">Delivery: ${{ delivery|floatformat:2 }}</p>
-                        <p class="mt-1 mb-1"><strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong></p>
+                        <p class="mt-1 mb-1">Cart Total: €{{ total|floatformat:2 }}</p>
+                        <p class="mt-1 mb-1">Delivery: €{{ delivery|floatformat:2 }}</p>
+                        <p class="mt-1 mb-1"><strong>Grand Total: €{{ grand_total|floatformat:2 }}</strong></p>
                         {% if free_delivery_delta > 0 %}
                         <!-- Free Delivery Information -->
                         <p class="mt-1 mb-1 text-danger">
-                            Spend <strong>${{ free_delivery_delta }}</strong> more for free delivery!
+                            Spend <strong>€{{ free_delivery_delta }}</strong> more for free delivery!
                         </p>
                         {% endif %}
                         <!-- Checkout Button -->
