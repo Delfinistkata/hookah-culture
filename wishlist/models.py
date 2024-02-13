@@ -13,8 +13,9 @@ class Wishlist(models.Model):
     user_profile = models.ForeignKey(UserProfile, on_delete=models.CASCADE,
                                     null=False, blank=False,
                                     related_name='user_wishlist',
-                                    default=None)
+                                    default=None)                     
     product = models.ForeignKey(Product, null=False, blank=False,
+                                related_name='wishlists',
                                 on_delete=models.CASCADE, default=None)
 
     def __str__(self):
