@@ -18,7 +18,7 @@
           <ul class="navbar-nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
             <div class="nav-item d-block">
               <a class="nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
-                  Home
+                  Home 
               </a>
             </div>
             <!-- Dropdown for All Products -->
@@ -94,7 +94,11 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
-                  My Account
+                  My Account {% if request.user.is_superuser %}
+                  <i class="fa-solid fa-user-secret fa-lg "></i>
+                {% else %}
+                  <i class="fa-solid fa-user-tie fa-lg"></i>
+                {% endif %}
                 </a>
                 <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
                   <!-- Product management link for superusers -->
@@ -133,7 +137,7 @@
             <a type="button" href="{% url 'account_login' %}" class="btn btn-outline-light me-2">Login</a>
           </div>
           <div class="navbar-nav mb-2 mb-lg-0">
-            <a type="button" href="{% url 'account_signup' %}" class="btn btn-warning">Sign-up</a>
+            <a type="button" href="{% url 'account_signup' %}" class="btn btn-primary">Sign-up</a>
           </div>
           <div class="navbar-nav mb-2 mb-lg-0">
             <a class="nav-link" href="{% url 'view_cart' %}">
@@ -150,12 +154,13 @@
             </a>
           </div>
         {% endif %}
-        </div>
+        </div>        
     </div>
   </div>
   </nav>
-  <div class="row text-center">
-    <div class="col text-white banner">
-        <h4 class="text-uppercase py-2">Free delivery on all orders over €{{ free_delivery_threshold }}!</h4>                
-    </div>  
+  <div class="container-fluid banner">
+    <div class="row text-center">
+      <h4 class="py-2"><i class="fa-solid fa-truck-fast"></i> <strong class="delivery-text">Free Delivery on</strong> all orders over €{{ free_delivery_threshold }}!</h4>                
+    </div>
+  </div>
 </header>

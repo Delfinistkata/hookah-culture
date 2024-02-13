@@ -5,7 +5,7 @@
 
 {% block content %}
 <!-- Start of Cart Section -->
-<section class="pt-5 pb-5">
+<section class="pt-5 pb-5">  
     <div class="container">
         {% if cart_items %}
         <!-- Display Cart Items if the Cart is not empty -->
@@ -54,7 +54,7 @@
                                     action="{% url 'adjust_cart' item.item_id %}">
                                     {% csrf_token %}
                                     <!-- Quantity Input and Buttons -->
-                                    <div class="input-group mb-3" style="width: 150px;">
+                                    <div class="input-group mb-3 quantity-btns">
                                         <!-- Decrease Quantity Button -->
                                         <button class="btn btn-white border border-secondary px-3 decrement-qty"
                                             type="button" data-item_id="{{ item.product.id }}"
