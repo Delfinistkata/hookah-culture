@@ -13,9 +13,9 @@
 <!-- Product details section -->
 <section class="py-5">
     <div class="container">
-        <h4 class="text-center">Product Information</h4>
+        <h4 class="text-center">Product Information </h4>
         <hr>              
-        <div class="row gx-5  mt-4">
+        <div class="row  mt-4">
             <!-- Product image -->
             <aside class="col-lg-6 " >
                 {% if product.image %}
@@ -67,7 +67,11 @@
                         <div class="ms-2">
                             <!-- Display stock and availability information -->
                             <span class="text-muted"> | <i class="fas fa-shopping-basket fa-sm mx-1"></i>{{ product.stock }}</span>
-                            <span class="text-success ms-2">In stock</span>
+                            {% if product.stock == 0 %}
+                                <span class="text-danger ms-2">Out of stock</span>
+                            {% else %}
+                                <span class="text-success ms-2">In stock</span>
+                            {% endif %}
                         </div>        
                     </div>
                     <div class="mb-3">
@@ -100,9 +104,9 @@
                         {% csrf_token %}
                         <div class="row mb-4">
                             <!-- Quantity input and buttons -->
-                            <div class="col-8  col-md-4 mb-3">
+                            <div class="col-8  mb-3">
                                 <input type="hidden" value="{{product.stock}}" id="product_stock">
-                                <div class="input-group mb-3" style="width: 170px;">
+                                <div class="input-group mb-3 .quantity-btns">
                                     <button class="btn btn-white border border-secondary px-3 decrement-qty" type="button" 
                                     data-item_id="{{ product.id }}" id="decrement-qty_{{ product.id }}">
                                         <i class="fas fa-minus"></i>
@@ -114,25 +118,27 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="col-md-2 col-4 mb-3">
+                            <div class="col-2 col-xxl-1 mb-3">
                                 <!-- Add to cart button -->
                                 <button type="submit" class="btn btn-primary shadow-0"> <i class="me-1 fa fa-shopping-basket"></i></a>
                             </div>            
-                            {% if user.is_authenticated %}
-                                <div class="col-md-2 col-4 mb-3">
-                                    <!-- Add to wishlist button -->
-                                    <a class="btn btn-outline-dark" href="{% url 'add_to_wishlist' product.id %}">
-                                        <i class="fa-regular fa-heart fa-md heart-icon-empty"></i>
-                                    </a>
-                                </div>
-                            {% else %}
-                                <div class="col-md-2 col-4 mb-3">
-                                    <!-- Add to wishlist button -->
-                                    <a class="btn btn-outline-dark" href="{% url 'add_to_wishlist' product.id %}">
-                                        <i class="fa-regular fa-heart fa-md heart-icon-empty"></i>
-                                    </a>
-                                </div>
-                            {% endif %}
+                            
+                            <div class="col-2 col-xxl-1  mb-3">
+                                <!-- Check if the product is in the wishlist -->
+                                {% with is_in_mywishlist=product.wishlists.all|is_wishlisted:request.user.id %}                                   
+                                    {% if is_in_mywishlist %}
+                                        <!-- Product is in wishlist, show filled heart -->
+                                        <a class="btn wishlist_btn rounded" href="{% url 'remove_from_wishlist' product.id %}">
+                                            <i class="fa-solid fa-heart"></i>
+                                        </a>
+                                    {% else %}
+                                        <!-- Product is not in wishlist, show empty heart -->
+                                        <a class="btn wishlist_btn rounded" href="{% url 'add_to_wishlist' product.id %}">
+                                            <i class="fa-regular fa-heart"></i>
+                                        </a>
+                                    {% endif %}
+                                {% endwith %}
+                            </div>
                         </div>
                         <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     </form>
@@ -154,7 +160,7 @@
 <section class="bg-light">
     <div class="container px-4 px-lg-5 mt-5 mb-5">
         <h4 class="fw-bolder mb-4">Related products</h4>
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+        <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-5">
             {% for product in products_related %}    
                 <!-- Include product template for related products -->
                 {% include 'products/includes/product.html' with product=product show_remove=0 %}
