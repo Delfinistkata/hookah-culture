@@ -14,6 +14,7 @@ class Subscriber(models.Model):
 
     email = models.EmailField()
     date_added = models.DateTimeField(auto_now_add=True)
+    is_subscribed = models.BooleanField(default=True)
 
     def __str__(self):
         """
@@ -21,3 +22,10 @@ class Subscriber(models.Model):
         Returns the email address of the subscriber.
         """
         return str(self.email)
+
+    def unsubscribe(self):
+        """
+        Marks the subscriber as unsubscribed.
+        """
+        self.is_subscribed = False
+        self.save()

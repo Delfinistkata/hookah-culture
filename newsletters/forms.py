@@ -36,4 +36,14 @@ class SubscriberForm(forms.ModelForm):
         This class defines the model and fields for the form.
         """
         model = Subscriber
-        fields = ('email',)
+        fields = ('email', 'is_subscribed')
+
+    def save(self, commit=True):
+        instance = super().save(commit=False)
+        instance.is_subscribed = True
+        if commit:
+            instance.save()
+        return instance
+
+class UnsubscribeForm(forms.Form):
+    email = forms.EmailField(label='Email address', widget=forms.EmailInput(attrs={'placeholder': 'Email address'}))

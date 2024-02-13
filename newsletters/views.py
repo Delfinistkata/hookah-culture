@@ -3,10 +3,11 @@ This module contains views related to the newsletters app,
 such as adding subscribers.
 """
 from django.http import HttpResponseRedirect
-
 from django.contrib import messages
+from django.shortcuts import get_object_or_404
+
 from .models import Subscriber
-from .forms import SubscriberForm
+from .forms import SubscriberForm, UnsubscribeForm
 
 
 def add_subscriber(request):
@@ -35,5 +36,38 @@ def add_subscriber(request):
             request,
             f"{instance.email} has been added to our the newsletter"
         )
+
+    return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
+
+
+def unsubscribe(request):
+    """
+    This view handles the unsubscription process based on a submitted form.
+    If the request method is POST, it validates the UnsubscribeForm, attempts to
+    find a subscriber with the provided email address, and marks them as unsubscribed.
+    Success and error messages are displayed accordingly. If the form is not valid,
+    an error message is shown for invalid form submission.
+    """
+    if request.method == 'POST':
+        form = UnsubscribeForm(request.POST)
+        if form.is_valid():
+            email = form.cleaned_data['email']
+            try:
+                subscriber = get_object_or_404(Subscriber, email=email)
+                subscriber.unsubscribe()
+                messages.success(
+                    request,
+                    f"You have successfully unsubscribed {email} from our newsletter."
+                )
+            except Subscriber.DoesNotExist:
+                messages.error(
+                    request,
+                    f"No subscriber found with the email {email}. Please check your email and try again."
+                )
+        else:
+            messages.error(
+                request,
+                "Invalid form submission. Please check your input and try again."
+            )
 
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))

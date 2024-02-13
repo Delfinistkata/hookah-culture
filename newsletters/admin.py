@@ -13,7 +13,7 @@ class SubscriberAdmin(admin.ModelAdmin):
     This class defines the custom configuration for displaying and ordering
     Subscriber records in the Django admin site.
     """
-    list_display = ('email', 'date_added')
+    list_display = ('email', 'is_subscribed', 'date_added')
 
     ordering = ('-date_added',)
 
