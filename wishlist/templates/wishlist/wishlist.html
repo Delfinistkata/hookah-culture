@@ -11,7 +11,7 @@
         </div>
         <hr> 
         <!-- Wishlist items -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5 mt-3 mb-3">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
             {% if user_wishlist %}
                 {% for item in user_wishlist %}
                     <!-- Include product template for each wishlist item -->
@@ -22,7 +22,7 @@
                 <div class="col-md-6 offset-md-3 shadow-lg p-3 bg-body-tertiary rounded mt-5 mb-5">
                     <p class="text-uppercase font-monospace text-center">Your wishlist is empty.</p>
                     <div class="text-center">
-                        <a href="{% url 'products' %}" class="btn btn-outline-black mt-3">Continue Shopping</a>
+                        <a href="{% url 'products' %}" class="btn btn-primary mt-3">Continue Shopping</a>
                     </div>
                 </div>
             {% endif %}
@@ -62,6 +62,24 @@
     <script type="text/javascript">
         $('.btt-link').click(function(e) {
             window.scrollTo(0,0);
+        })
+        $(document).ready(function () {
+            $('.delete-wishlist').click(function(e) {            
+                e.preventDefault();            
+                const href = $(this).attr('href');                                
+                $.confirm({
+                    title: 'Confirm!',
+                    content: 'Are you sure you want to delete it  ?',
+                    buttons: {
+                        confirm: function () {                        
+                            window.location = href;
+                        },
+                        cancel: function () {
+                            return;
+                        }                
+                    }
+});
+            })
         })
     </script>
 {% endblock %}
