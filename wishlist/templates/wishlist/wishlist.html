@@ -45,20 +45,13 @@
             </ul>
         </nav>
     {% endif %}
-
-    <!-- Back to top button -->
-    <div class="btt-button shadow-sm border rounded">
-        <a class="btt-link link-dark d-flex h-100">
-            <i class="fas fa-arrow-up mx-auto my-auto"></i>
-        </a>	
-    </div>
 {% endblock %}
 
 {% block postloadjs %}
     <!-- Additional JavaScript block -->
     {{ block.super }}
     
-    <!-- Script to scroll back to the top when back to top button is clicked -->
+    <!-- Script to delete from wishlist -->
     <script>
         $('.btt-link').click(function(e) {
             window.scrollTo(0,0);
