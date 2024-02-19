@@ -20,7 +20,7 @@ def wishlist(request):
     Retrieves the user's wishlist and paginates the results for display.
     """
     user_profile = UserProfile.objects.get(user=request.user)
-    user_wishlist = Wishlist.objects.filter(user_profile=user_profile)
+    user_wishlist = Wishlist.objects.filter(user_profile=user_profile).order_by('id')
 
     items_per_page = 6
     paginator = Paginator(user_wishlist, items_per_page)

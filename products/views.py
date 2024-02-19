@@ -24,7 +24,7 @@ def all_products(request):
     """
     A view to show all products, including sorting and search queries.
     """
-    products = Product.objects.all()
+    products = Product.objects.all().order_by('id')
     query = None
     categories = None
     sort = None
@@ -99,7 +99,7 @@ def product_detail(request, product_id):
     """
     product = get_object_or_404(Product, pk=product_id)
     category_id = product.category.id
-    products_related = Product.objects.all().filter(category=category_id)
+    products_related = Product.objects.all().filter(category=category_id).order_by('id')
 
     # Pagination
     products_per_page = 3
