@@ -67,17 +67,17 @@
                                 </div>
                                 <!-- Review Actions Dropdown -->
                                 <div class="review_actions dropdown">
-                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a href="#" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Review Actions">
                                         <i class="fa-solid fa-bars"></i>
                                     </a>
                                     <ul class="dropdown-menu">
                                         <!-- Edit Review Option -->
                                         <li>
-                                            <a href="{% url 'edit_review' review.id %}" class="dropdown-item">Edit</a>
+                                            <a href="{% url 'edit_review' review.id %}" class="dropdown-item" aria-label="Edit Review">Edit</a>
                                         </li>
                                         <!-- Delete Review Option -->
                                         <li>
-                                            <a href="{% url 'delete_review' review.id %}" class="dropdown-item delete-review" id="remove_{{ review.id }}">Delete</a>
+                                            <a href="{% url 'delete_review' review.id %}" class="dropdown-item delete-review" id="remove_{{ review.id }}" aria-label="Delete Review">Delete</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -117,7 +117,7 @@
     <!-- Additional JavaScript block -->
     {{ block.super }}
     
-    <!-- Script to scroll back to the top when back to top button is clicked -->
+    <!-- Script to delete review -->
     <script>    
         $(document).ready(function () {
             $('.delete-review').click(function(e) {

@@ -33,11 +33,11 @@
                         <!-- Add to wishlist button -->                               
                         {% with is_in_mywishlist=product.wishlists.all|is_wishlisted:request.user.id %}                                   
                             {% if is_in_mywishlist %}
-                                <a class="btn wishlist_btn rounded" href="{% url 'remove_from_wishlist' product.id %}">
+                                <a class="btn wishlist_btn rounded" aria-label="Remove from Wishlist" href="{% url 'remove_from_wishlist' product.id %}">
                                     <i class="fa-solid fa-heart"></i>
                                 </a>
                             {% else %}
-                                <a class="btn wishlist_btn rounded" href="{% url 'add_to_wishlist' product.id %}">
+                                <a class="btn wishlist_btn rounded" aria-label="Add to Wishlist" href="{% url 'add_to_wishlist' product.id %}">
                                     <i class="fa-regular fa-heart"></i>
                                 </a>
                             {% endif %}        

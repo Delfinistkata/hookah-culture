@@ -9,7 +9,7 @@
         <a href="{% url 'home' %}" class="navbar-brand">
           <img src="https://hookah-culture.s3.eu-west-1.amazonaws.com/media/logo3.png" alt="logo3" width="120" height="60">
         </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-label="Toggle Navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         
@@ -90,7 +90,7 @@
           {% if request.resolver_match.view_name == "products" %}
             <form method="GET" action="{% url 'products' %}" class="d-flex  me-2 justify-content-around  mb-2 mb-lg-0">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
-              <button class="btn btn-outline-secondary" type="submit">
+              <button class="btn btn-outline-secondary" aria-label="Search" type="submit">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
               </button>
             </form>

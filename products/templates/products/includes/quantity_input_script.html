@@ -6,8 +6,8 @@
         const productStock =  $('#product_stock').val()        
         var minusDisabled = currentValue < 2;
         var plusDisabled = currentValue > (productStock - 1);    
-        $(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled);
-        $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled);
+        $(`#decrement-qty_${itemId}`).prop('disabled', minusDisabled).attr('aria-label', `Decrease quantity for item ${itemId}`);
+        $(`#increment-qty_${itemId}`).prop('disabled', plusDisabled).attr('aria-label', `Increase quantity for item ${itemId}`);
     }
 
     // Ensure proper enabling/disabling of all inputs on page load
