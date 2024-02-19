@@ -17,4 +17,5 @@ class SubscriberAdmin(admin.ModelAdmin):
 
     ordering = ('-date_added',)
 
+
 admin.site.register(Subscriber, SubscriberAdmin)

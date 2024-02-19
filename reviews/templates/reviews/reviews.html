@@ -118,7 +118,7 @@
     {{ block.super }}
     
     <!-- Script to scroll back to the top when back to top button is clicked -->
-    <script type="text/javascript">    
+    <script>    
         $(document).ready(function () {
             $('.delete-review').click(function(e) {
                 e.preventDefault();                
@@ -135,7 +135,7 @@
                         }                
                     }
                 });
-            })
-        })
+            });
+        });
     </script>
 {% endblock %}

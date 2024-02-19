@@ -18,9 +18,9 @@
                         <div class="col-12 col-lg-6 mb-3">                        
                             {% if review.product.image %}
                             <!-- Display product image if available, else show a default image -->
-                            <img class="card-img-top1 image-product" src="{{ review.product.image.url }}" alt="{{ review.product.name }}" width="100%" height="300px">
+                            <img class="card-img-top1 image-product" src="{{ review.product.image.url }}" alt="{{ review.product.name }}" style="width: 100%; height: 300px;">
                         {% else %}
-                            <img class="card-img-top1 image-product" src="{{ MEDIA_URL }}noimage.png" alt="{{ review.product.name }}" width="100%" height="300px">
+                            <img class="card-img-top1 image-product" src="{{ MEDIA_URL }}noimage.png" alt="{{ review.product.name }}" style="width: 100%; height: 300px;">
                         {% endif %}
                         </div>
                         <div class="col-12 col-lg-6 mb-3">

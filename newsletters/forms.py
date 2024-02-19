@@ -13,9 +13,11 @@ from .models import Subscriber
 class SubscriberForm(forms.ModelForm):
     """
     Subscriber Form:
-    This form is used for capturing email addresses from users who want to subscribe
-    to newsletters. It extends Django's ModelForm and customizes its appearance
-    using crispy_forms and additional field modifications.
+    This form is used for capturing email
+    addresses from users who want to subscribe
+    to newsletters. It extends Django's ModelForm
+    and customizes its appearance using crispy_forms
+    and additional field modifications.
     """
 
     def __init__(self, *args, **kwargs):
@@ -45,5 +47,12 @@ class SubscriberForm(forms.ModelForm):
             instance.save()
         return instance
 
+
 class UnsubscribeForm(forms.Form):
-    email = forms.EmailField(label='Email address', widget=forms.EmailInput(attrs={'placeholder': 'Email address'}))
+    """
+    A form for handling email unsubscribe requests.
+    """
+    email = forms.EmailField(
+        label='Email address',
+        widget=forms.EmailInput(attrs={'placeholder': 'Email address'})
+    )

@@ -2,8 +2,8 @@
 Signal handler for creating a Wishlist when the first item is added.
 This signal handler is connected to the post_save signal of the Wishlist model.
 When a new Wishlist item is created (i.e., a product is added to the wishlist),
-this handler checks if the user already has a Wishlist. If not, it creates a new
-Wishlist for the user with the added product.
+this handler checks if the user already has a Wishlist.
+If not, it creates a new Wishlist for the user with the added product.
 """
 from django.db.models.signals import post_save
 from django.dispatch import receiver

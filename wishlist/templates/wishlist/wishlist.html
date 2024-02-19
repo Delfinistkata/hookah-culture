@@ -11,7 +11,7 @@
         </div>
         <hr> 
         <!-- Wishlist items -->
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-3">
+        <div class="row row-cols-1 row-cols-md-2 g-4">
             {% if user_wishlist %}
                 {% for item in user_wishlist %}
                     <!-- Include product template for each wishlist item -->
@@ -59,10 +59,10 @@
     {{ block.super }}
     
     <!-- Script to scroll back to the top when back to top button is clicked -->
-    <script type="text/javascript">
+    <script>
         $('.btt-link').click(function(e) {
             window.scrollTo(0,0);
-        })
+        });
         $(document).ready(function () {
             $('.delete-wishlist').click(function(e) {            
                 e.preventDefault();            
@@ -79,7 +79,7 @@
                         }                
                     }
 });
-            })
-        })
+            });
+        });
     </script>
 {% endblock %}

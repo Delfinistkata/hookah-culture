@@ -1,5 +1,5 @@
 """
-This module contains the Contact model, 
+This module contains the Contact model,
 which represents messages sent by users.
 """
 from django.db import models
@@ -7,7 +7,7 @@ from django.db import models
 
 class Contact(models.Model):
     """
-    Users can send messages through the contact form, 
+    Users can send messages through the contact form,
     and the model represents each message.
     """
     # Set topic options for message
@@ -26,7 +26,11 @@ class Contact(models.Model):
     ]
 
     topic = models.CharField(max_length=15, choices=TOPIC_CHOICES)
-    status = models.CharField(max_length=50, choices=STATUS_CHOICES, default='Pending',)
+    status = models.CharField(
+        max_length=50,
+        choices=STATUS_CHOICES,
+        default='Pending',
+    )
     name = models.CharField(max_length=100)
     email = models.EmailField(max_length=100)
     phone = models.CharField(max_length=20)
@@ -35,7 +39,7 @@ class Contact(models.Model):
 
     class Meta:
         """
-        Set ordering and plural name options 
+        Set ordering and plural name options
         for the Contact model.
         """
         ordering = ['-date_created']

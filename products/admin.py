@@ -36,6 +36,6 @@ class CategoryAdmin(admin.ModelAdmin):
 
     ordering = ('friendly_name',)
 
-# Register the models and their corresponding admin options
+
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)

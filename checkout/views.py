@@ -6,7 +6,13 @@ handling successful checkouts, and webhook responses.
 """
 import json
 
-from django.shortcuts import render, redirect, reverse, get_object_or_404, HttpResponse
+from django.shortcuts import (
+    render,
+    redirect,
+    reverse,
+    get_object_or_404,
+    HttpResponse
+)
 from django.views.decorators.http import require_POST
 from django.contrib import messages
 from django.conf import settings
@@ -20,11 +26,12 @@ from profiles.models import UserProfile
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 
+
 @require_POST
 def cache_checkout_data(request):
     """
     Cache checkout data for Stripe PaymentIntent to
-    ensure that the order total and other 
+    ensure that the order total and other
     relevant information are captured.
     """
     try:
@@ -102,8 +109,10 @@ def checkout(request):
     else:
         cart = request.session.get('cart', {})
         if not cart:
-            messages.error(request,
-                            "There's nothing in your cart at the moment.")
+            messages.error(
+                request,
+                "There's nothing in your cart at the moment."
+            )
             return redirect(reverse('products'))
 
         current_cart = cart_contents(request)

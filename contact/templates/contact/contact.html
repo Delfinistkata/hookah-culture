@@ -17,7 +17,7 @@
             <div class="col-lg-6">
                 <!-- Contact Form Section -->
                 <h1 class="text-uppercase mt-3">Get in Touch</h1>
-                <form action="" method="POST" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
+                <form action="{% url 'contact' %}" method="POST" class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                     {% csrf_token %}
                     {{ form | crispy }}
                     <button class="btn btn-primary mt-3" type="submit" value="submit">Submit</button>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-lg-6 mt-lg-5 mt-4 google-map">
                 <!-- Google Map Section -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152516.09898064565!2d-6.410511990777112!3d53.324206552945405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1706183371491!5m2!1sen!2sie" width="100%" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border border-0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d152516.09898064565!2d-6.410511990777112!3d53.324206552945405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670e80ea27ac2f%3A0xa00c7a9973171a0!2sDublin!5e0!3m2!1sen!2sie!4v1706183371491!5m2!1sen!2sie" style="width: 100%;" height="450"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="border border-0"></iframe>
             </div>
         </div>
     </div>

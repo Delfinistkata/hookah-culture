@@ -8,13 +8,13 @@ from django.shortcuts import (
 from django.contrib import messages
 from products.models import Product
 
-# Create your views here.
 
 def view_cart(request):
     """
     A view that renders the cart contents page.
     """
     return render(request, 'cart/cart.html')
+
 
 def add_to_cart(request, item_id):
     """
@@ -26,9 +26,8 @@ def add_to_cart(request, item_id):
     redirect_url = request.POST.get('redirect_url')
 
     # Check if user already submitted a review for the product
-    if quantity > product.stock :
-        messages.error(request,
-                        'Out of stock')
+    if quantity > product.stock:
+        messages.error(request, 'Out of stock')
     else:
         cart = request.session.get('cart', {})
 
@@ -56,8 +55,10 @@ def adjust_cart(request, item_id):
 
     if quantity > 0:
         cart[item_id] = quantity
-        messages.success(request,
-                        f'Updated {product.name} quantity to {cart[item_id]}')
+        messages.success(
+            request,
+            f'Updated {product.name} quantity to {cart[item_id]}'
+        )
     else:
         cart.pop(item_id)
         messages.success(request, f'Removed {product.name} from your cart')

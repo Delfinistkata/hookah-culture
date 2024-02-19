@@ -9,11 +9,14 @@ a radio button set.
 from django import forms
 from .models import Review
 
-RATINGS = [(1, 'Very poor'),
-            (2, 'Poor'),
-            (3, 'Ok'),
-            (4, 'Good'),
-            (5, 'Excellent')]
+RATINGS = [
+    (1, 'Very poor'),
+    (2, 'Poor'),
+    (3, 'Ok'),
+    (4, 'Good'),
+    (5, 'Excellent')
+]
+
 
 class ReviewForm(forms.ModelForm):
     """
@@ -33,7 +36,7 @@ class ReviewForm(forms.ModelForm):
     rating = forms.ChoiceField(
         label='How will you rate this product?',
         choices=RATINGS,
-        widget=forms.RadioSelect(attrs={'class': 'rating-radio'})
+        widget=forms.RadioSelect()
     )
 
     def __init__(self, *args, **kwargs):
@@ -53,10 +56,11 @@ class ReviewForm(forms.ModelForm):
         }
 
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'textarea form-control'
 
             if field_name == 'rating':
-                self.fields[field_name].label = 'How will you rate this product?'
+                self.fields[field_name].label = (
+                    'How will you rate this product?'
+                )
             else:
                 self.fields[field_name].label = False
 

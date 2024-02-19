@@ -92,7 +92,7 @@
     <div class="footer">
         <footer class="text-center text-lg-start text-white footer-section">
             <!-- Section: Social media -->
-            <section class="d-flex justify-content-between p-4 footer-section-social-media">
+            <div class="d-flex justify-content-between p-4 footer-section-social-media">
                 <div class="me-5">
                     <span>Get connected with us on social networks:</span>
                 </div>
@@ -116,7 +116,7 @@
                         </a>
                     </div>
                 </div>            
-            </section>
+            </div>
             <!-- Section: About us   -->
             <section>
                 <div class="container text-center text-md-start mt-5">
@@ -124,7 +124,7 @@
                         <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                             <!-- Content -->
                             <h6 class="text-uppercase fw-bold">About Us</h6>
-                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content"/>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content">
                             <p>
                                 Welcome to HOOKAH CULTURE, your premier online destination for top-tier hookahs, premium
                                 shisha flavors, and accessories. Elevate your smoking experience with our curated
@@ -135,7 +135,7 @@
                         <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                             <!-- Links -->
                             <h6 class="text-uppercase fw-bold"> Other Stores</h6>
-                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content" />
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content">
                             <p class="text-white">
                                 Bulgaria
                             </p>
@@ -155,7 +155,7 @@
                             <a class="text-uppercase text-white link-offset-2 link-underline link-underline-opacity-0 fw-bold" href="{% url 'contact' %}">
                                 <h6>Contact Us</h6>
                             </a>
-                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content" />
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto shop-content">
                             <p><i class="fas fa-home mr-3"></i> Dublin, Ireland</p>
                             <p><i class="fas fa-envelope mr-3"></i> info@hookahculture.ie</p>
                             <p><i class="fas fa-phone mr-3"></i> +353 867 567 88</p>
@@ -201,7 +201,7 @@
     <script>
         $(document).ready(function () {
             $('.toast').toast('show');
-        })
+        });
         $('#unsubscribe').click(function(e) {
                 e.preventDefault();                
                 const href = $(this).attr('href');                   
@@ -217,7 +217,7 @@
                         }                
                     }
                 });
-            })
+            });
     </script>
     {% endblock %}
 </body>

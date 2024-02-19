@@ -16,32 +16,41 @@
         <!-- Navigation links and dropdowns -->
         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
           <ul class="navbar-nav nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-            <div class="nav-item d-block">
+            <li class="nav-item d-block">
               <a class="nav-link text-white mr-5" href="{% url 'home' %}" id="home-link">
                   Home 
               </a>
-            </div>
+            </li>
             <!-- Dropdown for All Products -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownProducts" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 All Products
               </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownProducts">
+                <li>
+                  <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                </li>
+                <li>
+                  <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item">By Rating</a>
+                </li>
+                <li>
+                  <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item">By Category</a>
+                </li>
+                <li>
+                  <a href="{% url 'products' %}" class="dropdown-item ">All Products</a>
+                </li>
+                
               </ul>
             </li>
             
             <!-- Dropdown for Hookah -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownHookah" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Hookah
               </a>
-              <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu border-0" aria-labelledby="navbarDropdownHookah">
                 <a href="{% url 'products' %}?category=ceramic" class="dropdown-item">Ceramic</a>
                 <a href="{% url 'products' %}?category=glass" class="dropdown-item">Glass</a>
                 <a href="{% url 'products' %}?category=luxury" class="dropdown-item">Luxury</a>
@@ -51,11 +60,11 @@
             
             <!-- Dropdown for Flavours -->
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownFlavours" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
                 Flavours
               </a>
-              <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+              <div class="dropdown-menu border-0" aria-labelledby="navbarDropdownFlavours">
                 <a href="{% url 'products' %}?category=light" class="dropdown-item">Light Flavours</a>
                 <a href="{% url 'products' %}?category=strong" class="dropdown-item">Strong Flavours</a>
                 <a href="{% url 'products' %}?category=light,strong" class="dropdown-item">All Flavours</a>
@@ -79,7 +88,7 @@
           
           <!-- Search form (displayed on the 'products' view) -->
           {% if request.resolver_match.view_name == "products" %}
-            <form method="GET" action="" class="d-flex  me-2 justify-content-around  mb-2 mb-lg-0">
+            <form method="GET" action="{% url 'products' %}" class="d-flex  me-2 justify-content-around  mb-2 mb-lg-0">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="q">
               <button class="btn btn-outline-secondary" type="submit">
                 <i class="fa-solid fa-magnifying-glass search-icon"></i>
@@ -92,7 +101,7 @@
             <ul class="navbar-nav">
               <!-- Dropdown for My Account -->
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAccount" role="button" data-bs-toggle="dropdown"
                   aria-expanded="false">
                   My Account {% if request.user.is_superuser %}
                   <i class="fa-solid fa-user-secret fa-lg "></i>
@@ -100,7 +109,7 @@
                   <i class="fa-solid fa-user-tie fa-lg"></i>
                 {% endif %}
                 </a>
-                <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
+                <div class="dropdown-menu border-0" aria-labelledby="navbarDropdownAccount">
                   <!-- Product management link for superusers -->
                   {% if request.user.is_superuser %}
                   <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
@@ -134,10 +143,10 @@
           {% else %}
           <!-- Login and Sign-up buttons for unauthenticated users -->
           <div class="navbar-nav mb-2 mb-lg-0">
-            <a type="button" href="{% url 'account_login' %}" class="btn btn-outline-light me-2">Login</a>
+            <a href="{% url 'account_login' %}" class="btn btn-outline-light me-2">Login</a>
           </div>
           <div class="navbar-nav mb-2 mb-lg-0">
-            <a type="button" href="{% url 'account_signup' %}" class="btn btn-primary">Sign-up</a>
+            <a href="{% url 'account_signup' %}" class="btn btn-primary">Sign-up</a>
           </div>
           <div class="navbar-nav mb-2 mb-lg-0">
             <a class="nav-link" href="{% url 'view_cart' %}">
@@ -156,7 +165,6 @@
         {% endif %}
         </div>        
     </div>
-  </div>
   </nav>
   <div class="container-fluid banner">
     <div class="row text-center">

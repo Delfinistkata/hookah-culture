@@ -1,6 +1,7 @@
 """
 Module for configuring the 'home' app in a Django project.
-This module defines an AppConfig class, HomeConfig, which specifies the configuration
+This module defines an AppConfig class, HomeConfig,
+which specifies the configuration
 settings for the 'home' app.
 """
 from django.apps import AppConfig

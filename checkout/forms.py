@@ -20,14 +20,19 @@ class OrderForm(forms.ModelForm):
     class Meta:
         """
         Inner class defining metadata options for the OrderForm.
-        The Meta class specifies metadata options for the OrderForm, 
-        including the associated model and the fields to be included in the form. 
-        These options influence the behavior and appearance of the form when rendered.
+        The Meta class specifies metadata options for the OrderForm,
+        including the associated model and
+        the fields to be included in the form.
+        These options influence the behavior
+        and appearance of the form when rendered.
         """
         model = Order
-        fields = ('full_name', 'email', 'phone_number',
-                'street_address1', 'street_address2', 'town_or_city', 'postcode',
-                'country', 'county',)
+        fields = (
+            'full_name', 'email', 'phone_number',
+            'street_address1', 'street_address2',
+            'town_or_city', 'postcode',
+            'country', 'county',
+        )
 
     def __init__(self, *args, **kwargs):
         """
@@ -54,5 +59,7 @@ class OrderForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'stripe-style-input mt-1 mb-1'
+            self.fields[field].widget.attrs['class'] = (
+                'stripe-style-input mt-1 mb-1'
+            )
             self.fields[field].label = False

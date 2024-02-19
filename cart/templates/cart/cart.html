@@ -34,13 +34,18 @@
                                 <!-- Product Details -->
                                 <div class="row">
                                     <div class="col-md-3 text-left">
-                                        <!-- Product Image Link -->
-                                        <a class="link-blue" href="{% url 'product_detail' item.product.id %}">
+                                        <!-- Check if the product has an image -->
+                                        {% if item.product.image %}
                                             <!-- Product Image -->
-                                            <img class="img-fluid d-none d-md-block rounded mb-2 shadow "
+                                            <img class="img-fluid d-none d-md-block rounded mb-2 shadow"
                                                 src="{{ item.product.image.url }}" alt="{{ item.product.name }}"
-                                                width="50%" height="200px">
-                                        </a>
+                                                >
+                                        {% else %}
+                                            <!-- Display a default image if the product has no image -->
+                                            <img class="img-fluid d-none d-md-block rounded mb-2 shadow"
+                                                src="{{ MEDIA_URL }}noimage.png" alt="No Image"
+                                                >
+                                        {% endif %}
                                     </div>
                                     <div class="col-md-3 text-left mt-sm-2">
                                         <!-- Product Name -->
@@ -141,16 +146,10 @@
 
 {% block postloadjs %}
 {{ block.super }}
-<script type="text/javascript">
+<script>
     $('.btt-link').click(function(e) {
-        window.scrollTo(0,0)
-    })
-</script>
-
-<!-- Include Quantity Input Script -->
-{% include 'products/includes/quantity_input_script.html' %}
-
-<script type="text/javascript">
+        window.scrollTo(0,0);
+    });
     // Remove item and reload on click
     $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
@@ -162,6 +161,10 @@
             .done(function () {
                 location.reload();
             });
-    })
+    });
 </script>
+
+<!-- Include Quantity Input Script -->
+{% include 'products/includes/quantity_input_script.html' %}
+
 {% endblock %}

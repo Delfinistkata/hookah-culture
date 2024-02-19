@@ -1,5 +1,5 @@
 """
-This module contains views related to the newsletters app, 
+This module contains views related to the newsletters app,
 such as adding subscribers.
 """
 from django.http import HttpResponseRedirect
@@ -13,9 +13,12 @@ from .forms import SubscriberForm, UnsubscribeForm
 def add_subscriber(request):
     """
     Add email to the subscriber list.
-    This view function handles the addition of an email address to the subscriber list.
-    It uses the SubscriberForm to validate and save the email address.
-    If the email already exists in the database, an error message is displayed.
+    This view function handles the
+    addition of an email address to the subscriber list.
+    It uses the SubscriberForm to
+    validate and save the email address.
+    If the email already exists in the database,
+    an error message is displayed.
     Otherwise, the email is saved, and a success message is shown.
     """
     form = SubscriberForm(request.POST or None)
@@ -42,11 +45,15 @@ def add_subscriber(request):
 
 def unsubscribe(request):
     """
-    This view handles the unsubscription process based on a submitted form.
-    If the request method is POST, it validates the UnsubscribeForm, attempts to
-    find a subscriber with the provided email address, and marks them as unsubscribed.
-    Success and error messages are displayed accordingly. If the form is not valid,
-    an error message is shown for invalid form submission.
+    This view handles the unsubscription
+    process based on a submitted form.
+    If the request method is POST,
+    it validates the UnsubscribeForm, attempts to
+    find a subscriber with the provided email address,
+    and marks them as unsubscribed.
+    Success and error messages are displayed accordingly.
+    If the form is not valid, an error message is
+    shown for invalid form submission.
     """
     if request.method == 'POST':
         form = UnsubscribeForm(request.POST)
@@ -57,17 +64,18 @@ def unsubscribe(request):
                 subscriber.unsubscribe()
                 messages.success(
                     request,
-                    f"You have successfully unsubscribed {email} from our newsletter."
+                    f"Successfully unsubscribed {email} from our newsletter."
                 )
             except Subscriber.DoesNotExist:
                 messages.error(
                     request,
-                    f"No subscriber found with the email {email}. Please check your email and try again."
+                    f"No subscriber found with the email {email}. "
+                    f"Please check your email and try again."
                 )
         else:
             messages.error(
                 request,
-                "Invalid form submission. Please check your input and try again."
+                "Invalid form submission. Check your input and try again."
             )
 
     return HttpResponseRedirect(request.META.get('HTTP_REFERER'))

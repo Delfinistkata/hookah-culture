@@ -1,5 +1,5 @@
 """
-This module contains functions related to handling 
+This module contains functions related to handling
 contact messages through a form.
 """
 from django.shortcuts import render, HttpResponseRedirect, reverse
@@ -14,7 +14,7 @@ from .forms import ContactForm
 def contact(request):
     """
     Handles user messages submitted through a contact form.
-    Processes form submissions, sends confirmation emails, 
+    Processes form submissions, sends confirmation emails,
     and displays success messages.
     """
     if request.method == 'POST':
@@ -62,7 +62,7 @@ def contact(request):
 
 def contact_success(request):
     """
-    Renders the HTML page for displaying a success message 
+    Renders the HTML page for displaying a success message
     after submitting the contact form.
     """
 

@@ -19,8 +19,9 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from .models import Product, Category
 from .forms import ProductForm
 
+
 def all_products(request):
-    """ 
+    """
     A view to show all products, including sorting and search queries.
     """
     products = Product.objects.all()
@@ -34,9 +35,11 @@ def all_products(request):
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             sort = sortkey
-            if sortkey == 'rating':           
-                products = products.annotate(avg_rating=Coalesce(Avg('reviews__rating'), 0.0))
-                sortkey =  'avg_rating'
+            if sortkey == 'rating':
+                products = products.annotate(
+                    avg_rating=Coalesce(Avg('reviews__rating'), 0.0)
+                )
+                sortkey = 'avg_rating'
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
@@ -57,10 +60,14 @@ def all_products(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(
+                    request,
+                    "You didn't enter any search criteria!"
+                )
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | \
+                Q(description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -91,8 +98,8 @@ def product_detail(request, product_id):
     A view to show individual product details.
     """
     product = get_object_or_404(Product, pk=product_id)
-    categoryId = product.category.id
-    products_related = Product.objects.all().filter(category=categoryId)
+    category_id = product.category.id
+    products_related = Product.objects.all().filter(category=category_id)
 
     # Pagination
     products_per_page = 3
@@ -104,10 +111,10 @@ def product_detail(request, product_id):
         products_related = paginator.page(1)
     except EmptyPage:
         products_related = paginator.page(paginator.num_pages)
-        
+
     context = {
         'product': product,
-        'products_related': products_related        
+        'products_related': products_related
     }
 
     return render(request, 'products/product_detail.html', context)
@@ -129,7 +136,10 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add product. Please ensure the form is valid.'
+            )
     else:
         form = ProductForm()
 
@@ -158,7 +168,10 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update product. Please ensure the form is valid.'
+            )
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')

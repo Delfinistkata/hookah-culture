@@ -2,7 +2,7 @@
     <!-- Display initial content if the widget has an initial value -->
     <p>{{ widget.initial_text }}:</p>
     <a href="{{ widget.value.url }}">
-        <img width="96" height="96" class="rounded shadow-sm" src="{{ widget.value.url }}">
+        <img width="96" height="96" class="rounded shadow-sm" src="{{ widget.value.url }}" alt="Image of a Product">
     </a>
 
     {% if not widget.required %}
@@ -18,9 +18,10 @@
 {% endif %}
 
 <!-- Input field for selecting a new image -->
-<span class="btn btn-black rounded-0 btn-file">
-    Select Image <input id="new-image" type="{{ widget.type }}" name="{{ widget.name }}"{% include "django/forms/widgets/attrs.html" %}>
-</span>
+<label for="new-image" class="btn btn-black rounded-0 btn-file">
+    Select Image
+    <input id="new-image" type="file" name="image" accept="image/*" class="shadow-lg p-2 bg-body-tertiary rounded mb-2">
+</label>
 
 <!-- Display the filename once an image is selected -->
-<strong><p class="text-danger" id="filename"></p></strong>
+<strong class="text-danger" id="filename"></strong>

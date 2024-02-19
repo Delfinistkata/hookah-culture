@@ -1,8 +1,8 @@
 """
 This module contains URL patterns for the contact app.
-The URL patterns include paths for displaying the contact form 
+The URL patterns include paths for displaying the contact form
 and handling contact form submissions.
-The 'contact' path is associated with the 'contact' view, 
+The 'contact' path is associated with the 'contact' view,
 and the 'contact_success' path is associated
 with the 'contact_success' view.
 """

@@ -39,6 +39,7 @@ def wishlist(request):
         {'user_wishlist': current_page, 'paginator': paginator}
     )
 
+
 @login_required
 def add_to_wishlist(request, product_id):
     """
@@ -75,8 +76,10 @@ def remove_from_wishlist(request, product_id):
     """
     product = get_object_or_404(Product, pk=product_id)
     user_profile = UserProfile.objects.get(user=request.user)
-    wishlist_item = Wishlist.objects.get(user_profile=user_profile,
-                                        product=product)
+    wishlist_item = Wishlist.objects.get(
+        user_profile=user_profile,
+        product=product
+    )
     wishlist_item.delete()
     messages.success(request, f'{product.name} has been successfully removed.')
     return redirect(reverse('wishlist'))

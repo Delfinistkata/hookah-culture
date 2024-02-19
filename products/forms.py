@@ -25,7 +25,11 @@ class ProductForm(forms.ModelForm):
         model = Product
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(
+        label='Image',
+        required=False,
+        widget=CustomClearableFileInput
+    )
 
     def __init__(self, *args, **kwargs):
         """
@@ -56,7 +60,9 @@ class ProductForm(forms.ModelForm):
 
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
-            field.widget.attrs['class'] = 'shadow-lg p-2 bg-body-tertiary rounded mb-2'
+            field.widget.attrs['class'] = (
+                'shadow-lg p-2 bg-body-tertiary rounded mb-2'
+            )
 
         self.fields['category'].widget.attrs['autofocus'] = True
         for field in self.fields:
@@ -66,5 +72,7 @@ class ProductForm(forms.ModelForm):
                 else:
                     placeholder = placeholders[field]
                 self.fields[field].widget.attrs['placeholder'] = placeholder
-            self.fields[field].widget.attrs['class'] = 'shadow-lg p-2 bg-body-tertiary rounded mb-2'
+            self.fields[field].widget.attrs['class'] = (
+                'shadow-lg p-2 bg-body-tertiary rounded mb-2'
+            )
             self.fields[field].label = False

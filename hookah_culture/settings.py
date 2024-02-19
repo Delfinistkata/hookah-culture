@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
 from pathlib import Path
-import dj_database_url
 import os
+import dj_database_url
 if os.path.exists("env.py"):
     import env
 
@@ -30,7 +30,9 @@ SECRET_KEY = os.environ.get('SECRET_KEY', '')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu107.gitpod.io', '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['hookah-culture-2bfc66e2f4dc.herokuapp.com',
+                '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu107.gitpod.io',
+                '8000-delfinistka-hookahcultu-kj4dfkcro36.ws-eu108.gitpod.io']
 
 
 # Application definition

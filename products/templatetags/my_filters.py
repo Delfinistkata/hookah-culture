@@ -9,6 +9,7 @@ from django import template
 
 register = template.Library()
 
+
 @register.filter(name='reviews_range')
 def reviews_range(number=5):
     """
@@ -18,6 +19,7 @@ def reviews_range(number=5):
     """
     return range(int(number))
 
+
 @register.filter(name='is_wishlisted')
 def is_wishlisted(wishlists, profile_id):
     """
@@ -25,4 +27,4 @@ def is_wishlisted(wishlists, profile_id):
     to detect if the product is in the wishlist
     of the current user.
     """
-    return wishlists.filter(user_profile_id=profile_id).exists()    
+    return wishlists.filter(user_profile_id=profile_id).exists()

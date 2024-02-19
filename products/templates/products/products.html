@@ -102,7 +102,7 @@
 {% block postloadjs %}
     {{ block.super }}
     <!-- Back to top script -->
-    <script type="text/javascript">
+    <script>
         $(document).ready(function () {
             $('#prev_page, #next_page').click(function(e) {
                 e.preventDefault();
@@ -111,18 +111,18 @@
                 // Get Query of the URL 
                 const currentPageQuery = new URLSearchParams(window.location.search);
                 // Set page number for the next number of the page
-                currentPageQuery.set('page', number_page)         
+                currentPageQuery.set('page', number_page);       
                 // Load the new URl with the page and query       
                 window.location = '?'+currentPageQuery;                
-            })
+            });
         });
         $('.btt-link').click(function(e) {
-            window.scrollTo(0,0)
-        })
+            window.scrollTo(0,0);
+        });
     </script>
     
     <!-- Sorting script -->
-    <script type="text/javascript">
+    <script>
         $('#sort-selector').change(function() {
             var selector = $(this);
             var currentUrl = new URL(window.location);
@@ -142,6 +142,6 @@
 
                 window.location.replace(currentUrl);
             }
-        })
+        });
     </script>
 {% endblock %}

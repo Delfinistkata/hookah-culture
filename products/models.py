@@ -27,7 +27,7 @@ class Category(models.Model):
         """
         Return a string representation of the category.
         """
-        return self.name
+        return str(self.name)
 
     def get_friendly_name(self):
         """
@@ -40,7 +40,12 @@ class Product(models.Model):
     """
     Model representing a product.
     """
-    category = models.ForeignKey('Category', null=True, blank=True, on_delete=models.SET_NULL)
+    category = models.ForeignKey(
+        'Category',
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL
+    )
     sku = models.CharField(max_length=254, null=True, blank=True)
     name = models.CharField(max_length=254)
     description = models.TextField()
@@ -51,7 +56,8 @@ class Product(models.Model):
     @property
     def rating(self):
         """
-        Calculate and return the average rating of the product based on reviews.
+        Calculate and return the average
+        rating of the product based on reviews.
         """
         return self.reviews.aggregate(avg_rating=Avg('rating'))['avg_rating']
 
@@ -59,4 +65,4 @@ class Product(models.Model):
         """
         Return a string representation of the product.
         """
-        return self.name
+        return str(self.name)
