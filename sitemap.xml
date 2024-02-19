@@ -1,0 +1,2512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?sort=price&amp;direction=asc</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?sort=category&amp;direction=asc</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=ceramic</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=glass</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=luxury</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=ceramic,glass,luxury</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=light</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=strong</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=light,strong</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=arrivals</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=deals</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=clearance</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/?category=arrivals,deals,clearance</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/cart/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/contact/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/101/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/101/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/99/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/99/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/102/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/102/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/113/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/113/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/112/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/112/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/94/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/94/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/74/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/74/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/54/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/54/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/71/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/71/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/68/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/68/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/29/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/29/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/93/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/93/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/100/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/100/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/92/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/92/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/91/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/91/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/27/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/27/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/46/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/46/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/47/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/47/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/26/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/26/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/30/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/30/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/33/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/33/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/31/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/31/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/36/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/36/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/37/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/37/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/38/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/38/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/39/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/39/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/48/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/48/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/50/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/50/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/51/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/51/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/52/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/52/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/53/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/53/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/80/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/80/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/72/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/72/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/73/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/73/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/81/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/81/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/75/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/75/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/59/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/59/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/60/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/60/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/61/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/61/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/62/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/62/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/63/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/63/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/64/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/64/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/114/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/114/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/104/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/104/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/105/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/105/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/106/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/106/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/107/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/107/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/108/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/108/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/109/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/109/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/101/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/101/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F101%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/99/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/99/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F99%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/102/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/102/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F102%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/113/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F113%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/112/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F112%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/94/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/94/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F94%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/74/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/74/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F74%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/54/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/54/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F54%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/71/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/71/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F71%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/68/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/68/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F68%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/29/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/29/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F29%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/93/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/93/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F93%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/100/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/100/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F100%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/92/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/92/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F92%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/91/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/91/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F91%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/27/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/27/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F27%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/46/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/46/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F46%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/47/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/47/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F47%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/26/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/26/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F26%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/30/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/30/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F30%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/33/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/33/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F33%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/31/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/31/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F31%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/36/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/36/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F36%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/37/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/37/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F37%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/38/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/38/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F38%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/39/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/39/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F39%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/48/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/48/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F48%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/50/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/50/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F50%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/51/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/51/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F51%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/52/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/52/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F52%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/53/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/53/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F53%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/80/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/80/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F80%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/72/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/72/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F72%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/73/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/73/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F73%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/81/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/81/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F81%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/75/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/75/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F75%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/59/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/59/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F59%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/60/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/60/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F60%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/61/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/61/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F61%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/62/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/62/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F62%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/63/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/63/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F63%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/64/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/64/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F64%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/114/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F114%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/104/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/104/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F104%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/105/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/105/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F105%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/106/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/106/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F106%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/107/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/107/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F107%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/108/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/108/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F108%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/109/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/109/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F109%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F101%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/101/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/101/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F101%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F99%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/99/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/99/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F99%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F102%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/102/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/102/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F102%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F113%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F113%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F112%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F112%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F94%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/94/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/94/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F94%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F74%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/74/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/74/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F74%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F54%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/54/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/54/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F54%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F71%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/71/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/71/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F71%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F68%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/68/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/68/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F68%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F29%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/29/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/29/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F29%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F93%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/93/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/93/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F93%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F100%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/100/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/100/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F100%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F92%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/92/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/92/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F92%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F91%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/91/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/91/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F91%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F27%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F27%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F46%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/46/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F46%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F47%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F47%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F26%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F26%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F30%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/30/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F30%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F33%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F33%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F31%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F31%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F36%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F36%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F37%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F37%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F38%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F38%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F39%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/39/?page=3</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F39%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F48%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F48%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F50%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F50%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F51%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/51/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F51%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F52%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F52%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F53%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F53%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F80%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/80/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F80%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F72%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F72%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F73%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F73%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F81%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/81/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F81%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F75%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F75%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F59%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F59%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F60%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/60/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F60%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F61%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F61%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F62%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F62%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F63%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/63/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F63%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F64%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F64%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F114%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F114%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F104%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F104%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F105%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/105/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F105%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F106%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F106%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F107%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F107%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F108%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/108/?page=1</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F108%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Freviews%2Fadd_review%2F109%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Fwishlist%2Fadd_to_wishlist%2F109%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F101%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/95/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/96/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/96/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F99%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F102%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F113%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F112%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F94%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F74%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/76/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/76/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/77/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/78/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F54%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/55/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/56/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/56/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/57/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F71%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/65/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/66/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/66/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/67/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F68%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F29%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/32/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/34/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/34/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/35/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F93%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F100%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F92%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F91%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/91/?page=4</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F27%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F46%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/40/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/41/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/42/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/46/?page=4</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F47%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F26%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F30%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F33%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F31%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F36%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F37%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F38%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F39%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F48%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F50%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F51%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F52%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F53%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F80%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F72%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F73%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F81%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F75%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F59%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F60%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F61%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F62%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F63%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F64%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F114%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F104%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F105%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F106%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F107%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F108%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=%2Freviews%2Fadd_review%2F109%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F95%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/96/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/96/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F96%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/76/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/76/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F76%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F77%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F78%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F55%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/56/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/56/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F56%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F57%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F65%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/66/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/66/?page=2</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F66%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F67%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F32%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/reviews/add_review/34/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F34%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F35%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/products/97/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/97/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/98/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F40%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F41%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/signup/?next=%2Fwishlist%2Fadd_to_wishlist%2F42%2F</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://hookah-culture-2bfc66e2f4dc.herokuapp.com/accounts/login/?next=/wishlist/add_to_wishlist/43/</loc>
+  <lastmod>2024-02-19T12:37:36+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+
+
+</urlset>

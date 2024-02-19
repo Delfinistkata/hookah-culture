@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /cart/
+Disallow: /checkout/
+Disallow: /profiles/
+Sitemap: https://hookah-culture-2bfc66e2f4dc.herokuapp.com/sitemap.xml
