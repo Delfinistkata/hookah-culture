@@ -55,7 +55,7 @@
                                     {% endfor %}
                                 </span>
                                 <span class="ms-1">
-                                    No Rating Yet..
+                                    No Rating
                                 </span>
                             {% endif %}
                         </div>            
@@ -94,7 +94,7 @@
                         <!-- Display edit and delete options for superusers -->
                         <small class="ml-3">
                             <a href="{% url 'edit_product' product.id %}" aria-label="Edit product">Edit</a> | 
-                            <a href="{% url 'delete_product' product.id %}" aria-label="Delete product">Delete</a>
+                            <a href="{% url 'delete_product' product.id %}" id="delete_product" aria-label="Delete product">Delete</a>
                         </small>
                     {% endif %}
                     <hr>
@@ -186,4 +186,26 @@
 {% block postloadjs %}
     {{ block.super }}
     {% include 'products/includes/quantity_input_script.html' %}
+
+    <!-- Script to delete product -->
+    <script>    
+        $(document).ready(function () {
+            $('#delete_product').click(function(e) {
+                e.preventDefault();                
+                const href = $(this).attr('href');               
+                $.confirm({
+                    title: 'Confirm!',
+                    content: 'Are you sure you want to delete it  ?',
+                    buttons: {
+                        confirm: function () {                        
+                            window.location = href;
+                        },
+                        cancel: function () {
+                            return;
+                        }                
+                    }
+                });
+            });
+        });
+    </script>
 {% endblock %}
