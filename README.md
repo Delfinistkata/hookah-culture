@@ -785,10 +785,10 @@ Reset Password | Allow the registered shopper to reset their password. | ![Hooka
     * Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub. 
 
 * [GitPod](https://gitpod.io/)
-     * GitPod was used for writing code, committing, and then pushing to GitHub.
+    * GitPod was used for writing code, committing, and then pushing to GitHub.
 
 * [GitHub](https://github.com)  
-   GitHub was used to store the projects code after being pushed from Git. 
+    * GitHub was used to store the projects code after being pushed from Git. 
 
 * [Heroku](https://www.heroku.com)   
     * Heroku was used to deploy the website.
@@ -797,7 +797,7 @@ Reset Password | Allow the registered shopper to reset their password. | ![Hooka
     * Coolors was used to create a color scheme for the website.
 
 * [Balsamiq](https://balsamiq.com/)
-     * Balsamiq was used to create the wireframes during the design phase of the project
+    * Balsamiq was used to create the wireframes during the design phase of the project
 
 * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
     * Chrome DevTools was used during development process for code review and to test responsiveness.
@@ -811,7 +811,8 @@ Reset Password | Allow the registered shopper to reset their password. | ![Hooka
 * [JSHint](https://jshint.com/) 
     * The JSHints JavaScript Code Quality Tool was used to validate the site's JavaScript code.
 
-* [Favicon.io](https://favicon.io) was used to create the site favicon.
+* [Favicon.io](https://favicon.io) 
+    * It was used to create the site favicon.
 
 
 ## Testing
