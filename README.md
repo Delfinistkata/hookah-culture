@@ -398,23 +398,23 @@ These terms could then be added to, or removed as deemed necessary, and with con
 
 - Hookah Culture Overview:
 
-      The B2C (Business-to-Consumer) ecommerce model for Hookah Culture is an innovative online platform specializing in the retail of premium hookah products, accessories, and a diverse range of flavors. Our mission is to curate a comprehensive selection of high-quality hookah items, providing enthusiasts and beginners alike with a one-stop-shop for all their hookah-related needs.
+   The B2C (Business-to-Consumer) ecommerce model for Hookah Culture is an innovative online platform specializing in the retail of premium hookah products, accessories, and a diverse range of flavors. Our mission is to curate a comprehensive selection of high-quality hookah items, providing enthusiasts and beginners alike with a one-stop-shop for all their hookah-related needs.
 
 - Values:
 
-      - Commitment to Quality: 
+   - Commitment to Quality: 
 
       Hookah Culture prioritizes offering products of superior quality to ensure customer satisfaction and loyalty.
 
-      - Customer-Centric Approach:
+   - Customer-Centric Approach:
 
       The main focus is on delivering exceptional customer service, creating a seamless shopping experience.
 
-      - Diversity and Inclusivity:
+   - Diversity and Inclusivity:
 
       We celebrate the diversity of hookah culture, catering to a wide audience with varied preferences.
 
-      - Innovation:
+   - Innovation:
 
       Embracing the latest trends and technologies to stay at the forefront of the hookah industry.
 
@@ -424,33 +424,31 @@ These terms could then be added to, or removed as deemed necessary, and with con
 
 1. Target Audience:
 
-         Our primary customer base includes:
+   - Hookah Enthusiasts:
 
-         - Hookah Enthusiasts:
+      Experienced users seeking premium products and unique flavors.
 
-         Experienced users seeking premium products and unique flavors.
+   - Beginners:
 
-         - Beginners:
+      Individuals entering the world of hookah,       requiring guidance and starter kits.
 
-         Individuals entering the world of hookah,       requiring guidance and starter kits.
+   - Hookah Lounge Owners:
 
-         - Hookah Lounge Owners:
-
-         Business owners looking for bulk purchases and exclusive products.
+      Business owners looking for bulk purchases and exclusive products.
 
 2. Customer Needs:
 
-         - Quality Products:
+   - Quality Products:
 
-         Customers seek top-notch hookahs, genuine accessories, and a diverse range of high-quality flavors.
+      Customers seek top-notch hookahs, genuine accessories, and a diverse range of high-quality flavors.
 
-         - Convenience:
+   - Convenience:
 
-         A user-friendly platform with easy navigation and secure transactions.
+      A user-friendly platform with easy navigation and secure transactions.
 
-         - Expert Advice:
+   - Expert Advice:
 
-         Access to informative content and customer support for guidance on product selection and usage.
+      Access to informative content and customer support for guidance on product selection and usage.
 
 [Back to top ⇧](#hookah-culture)
 
@@ -458,11 +456,11 @@ These terms could then be added to, or removed as deemed necessary, and with con
 
 Primary Competitors:
 
-      Hookah Culture competes with established online hookah retailers, such as:
+   Hookah Culture competes with established online hookah retailers, such as:
 
-         1. Hookah-Shisha
-         2. The Shisha Shop
-         3. Vaperus
+   1. Hookah-Shisha
+   2. The Shisha Shop
+   3. Vaperus
 
 [Back to top ⇧](#hookah-culture)
 
@@ -470,49 +468,49 @@ Primary Competitors:
 
 **Strengths**
 
-      1. Diverse Product Range:
+   1. Diverse Product Range:
 
       Hookah Culture offers a comprehensive selection of premium hookahs, accessories, and flavors, providing customers with a wide array of choices in one place.
 
-      2. Community Engagement: 
+   2. Community Engagement: 
 
       Fostering an online community where hookah enthusiasts can connect, share experiences, and contribute to a vibrant and engaged user base.
 
 **Weaknesses**
 
-      1. New Brand:
+   1. New Brand:
 
       As a new entrant, Hookah Culture may face challenges in establishing brand recognition and trust in the competitive market.
 
-      2. Limited Marketing Budget:
+   2. Limited Marketing Budget:
 
       The initial budget constraints may limit the reach and awareness of Hookah Culture compared to more established competitors.
 
 **Opportunities**
 
-      1. Market Niche:
+   1. Market Niche:
 
       Hookah Culture has the opportunity to fill a niche in the market by providing a diverse and curated selection of hookah-related products in one platform, a unique offering not widely available.
 
-      2. Collaborations:
+   2. Collaborations:
 
       Potential collaborations with prominent hookah brands, influencers, and organizations can enhance brand visibility and credibility.
 
 **Threats**
 
-      1. Supply Chain Disruptions:
+   1. Supply Chain Disruptions:
 
       Challenges in shipping and supply chain disruptions, particularly for products produced in other countries, may impact inventory and lead to delays.
 
-      2. Variable Shipping Costs:
+   2. Variable Shipping Costs:
 
       Fluctuations in shipping costs can impact the overall pricing structure and potentially affect customer satisfaction.
 
-      3. Competitive Landscape:
+   3. Competitive Landscape:
 
       Larger companies with the ability to change product supply and smaller eco-friendly competitors expanding their product range may pose threats to market share.
 
-      4. Public Relations and Market Share:
+   4. Public Relations and Market Share:
 
       Other similar companies gaining more PR and a larger market share may pose a threat to Hookah Culture's growth.
 
@@ -520,21 +518,21 @@ Primary Competitors:
 
 Given our resource constraints, we are strategically focusing on cost-effective yet impactful marketing initiatives to establish and grow Hookah Culture. Our positive marketing strategy is designed to create brand awareness, foster customer loyalty, and attract a wider audience:
 
-      1. Engaging Social Media Presence:
+   1. Engaging Social Media Presence:
 
-      - Facebook Community Building:
+   - Facebook Community Building:
 
       Actively manage our Facebook page, engaging with our audience through regular posts, updates, and responding promptly to customer inquiries. This platform serves as a hub for hookah enthusiasts to share experiences and connect.
 
-      2. Newsletter Loyalty Program:
+   2. Newsletter Loyalty Program:
 
-      - Customer Loyalty through Newsletters:
+   - Customer Loyalty through Newsletters:
 
       Encourage visitors to sign up for our newsletter by offering exclusive discounts, early access to new products, and valuable hookah-related content. This not only builds customer loyalty but also provides a direct communication channel.
 
-      3. Word of Mouth Marketing:
+   3. Word of Mouth Marketing:
 
-      - Customer Referral Program:
+   - Customer Referral Program:
 
       Implement a customer referral program, incentivizing existing customers to refer friends and family to Hookah Culture. This taps into the power of word of mouth, expanding our customer base organically.
 
@@ -554,82 +552,178 @@ See the live Facebook Business page [here](https://www.facebook.com/hookahcultur
 * Responsive design across all device sizes.
 
 #### Header
-![Hookah Culture header image]()
+![Hookah Culture header image](assets/readme/headerpage.png)
 
+* The header contains the main logo, navigation links and search product functionality.
+
+* The main logo works as a link to the home page.
+
+* The navigation links allow the shopper access to all sections to facilitate navigation across the website. It also has a hover effect that changes color to provide feedback to the shopper for a better user experience.
+
+* The shopping bag icon changes, reflecting the current status. The current shopping amount is displayed for the shopper.
 
 #### Search Bar
-![Hookah Culture search bar image]()
+![Hookah Culture search bar image](assets/readme/search.png)
 
+* The search bar allows the user to search the website for products using specific keywords.
 
 #### Footer
-![Hookah Culture footer image]()
+![Hookah Culture footer image](assets/readme/footer.png)
 
-### Home Page
+* The footer contains Business information as well as links to our Facebook page, LinkedIn, Github and privacy policy.
 
+* A newsletter registration form has been located at the footer allowing the shopper to subscribe across the whole website.
 
-#### Categories Section
-![Hookah Culture section image]()
-
-#### About Section
-![Hookah Culture about section image]()
+### Products
 
 ### Products Page
-![Hookah Culture products page image]()
+![Hookah Culture products page image](assets/readme/products.png)
+
+* Display all the products currently available or filtered on a specific category.
+
+* Display an image of the products as well as their main information such as name, price, rating and if they are added to wishlish or not.
+
+* Provides a product navigation bar to allow the shopper to filter products per category.
+
+* A link to the shopper favorite products is available on at the top of the page.
+
+* Provides sorting functionality to sort products by price, rating, name or category.
+
+* A back to the top button is available so the shopper can easily come back to the top of the page.
 
 ### Product Details Page
-![Hookah Culture product details page image]()
+![Hookah Culture product details page image](assets/readme/productdetail.png)
+
+* The products navigation bar is present in case the shopper wants to go back to the products.
+
+* Provide a larger image of the product and display its detailed information.
+
+* A heart icon is available to easily add the product to the shopper's wishlist products.
+
+* Allow the user to select the quantity of products to be added to the shopping bag.
+
+* An "Add to Bag" button is available to add the desired quantity of the product to the shopping bag.
+
+* A reviews link is available, indicating how many reviews the product has received and to toggle the reviews. 
+
+* All reviews the product has received are being displayed on the reviews section at the bottom of the page.
+
+* A link to leave a review is available at the top of the product.
+
+* Display the quantity of products currently being displayed.
+
+* Edit and delete links are displayed only for admins to be able to update or delete the product.
+
+* Related products are displayed under the selected product filtered by the category.
 
 ### Products Admin
 
 #### Add Product
-![Hookah Culture add product image]()
+![Hookah Culture add product image](assets/readme/addproduct.png)
+
+* Provide a form for the site admin to be able to add new products to the store.
 
 #### Edit Product
-![Hookah Culture edit product image]()
+![Hookah Culture edit product image](assets/readme/editproduct.png)
 
+* Provide a prefilled form for the site admin to be able to update products in the store.
 
 ### Shopping Cart Page
-![Hookah Culture shopping cart page image]()
+![Hookah Culture shopping cart page image](assets/readme/cart.png)
+
+* A message alerts the user in case the free delivery threshold has not been reached, displaying the amount left.
+
+* Display all products currently in the shopping cart and their information.
+
+* Allow the user to update the product quantity or remove the product from the shopping cart.
+
+* Display the current total cost including the cart total and delivery costs.
+
+* Provide a "Keep Shopping" link to go back to the products.
+
+* A button to checkout is provided for the shopper to finish the purchase.
 
 ### Checkout Page
-![Hookah Culture  checkout page image]()
+![Hookah Culture  checkout page image](assets/readme/checkout.png)
+
+* Provide a checkout form for the shopper to complete the purchase and provide the necessary contact, shipping and payment information.
+
+* Display an order summary listing all the products to be purchased and their total cost including the bag total and delivery costs.
+
+* Provide a button back to the shopping cart in the case the shopper would like to adjust the products in the shopping cart.
+
+* A message is displayed, informing the shopper the amount to be charged on the provided card.
+
+* Descriptive error messages are displayed in case there is any issue with the payment information provided.
+
+* A button is clearly available for the shopper to complete the order.
+
+* Stripe webhook handler is created in the backend to pass the order information in the case the browser crashes once the checkout completion.
 
 ### Checkout Success Page
-![Hookah Culture checkout success page image]()
+![Hookah Culture checkout success page image](assets/readme/checkoutsucess.png)
+
+* Display the order details and shopper information to allow the shopper to confirm that the information provided is correct.
+
+* Additionally, informs the shopper that an email has been sent to the email address provided with the same information.
+
+* A button to the latest deals is provided at the bottom of the page.
 
 ### Profile Page
-![Hookah Culture profile page image]()
+![Hookah Culture profile page image](assets/readme/profile.png)
 
+* Provide a form for the registered shopper to update their default information.
+
+* An order history section is present with all registered shopper's past orders information.
 
 ### Wishlist Page
-![Hookah Culture wishlist page image]()
+![Hookah Culture wishlist page image](assets/readme/wishlist.png)
 
-### Reviews Page
-![Hookah Culture reviews page image]()
+* Display the registered shopper's wishlist products and provides a picture, name, price, category and rating for each product.
 
-### Reviews Admin
+* A remove button is present for the registered shopper to remove the products that no longer wants to keep on the list.
+
+* A confirmation will appear before removing the product from the wishlist.
+
+### Reviews
+
+#### Reviews Page
+![Hookah Culture reviews page image](assets/readme/reviewspage.png)
+
+* Display the reviews the registered shopper has provided and the review's information.
+
+* A dropped down menu is available to display the links for edit and delete the reviews are present for each review.
 
 #### Add Review
-![Hookah Culture add review page image]()
+![Hookah Culture add review page image](assets/readme/addreview.png)
+
+* Display the product being reviewed.
+
+* Provide a form for the registered shopper to be able to add review to the product.
 
 #### Edit Review
-![Hookah Culture edit review page image]()
+![Hookah Culture edit review page image](assets/readme/editreview.png)
+
+* Provide a prefilled form for the registered shopper to be able to update their existing reviews.
 
 ### Contact Us Page
-![Hookah Culture contact us page image]()
+![Hookah Culture contact us page image](assets/readme/contact.png)
+
+* Provide a form where the user can get in touch with the business in relation to different topics.
+
+* A map is provided to locate the business.
 
 ### Accounts Pages
 
 Page | Purpose | Image |
 --- | --- | --- |
-Sign Up | Allow the shopper to sign up an account for the website. | ![Hookah Culture Sign Up Page]() |
-Sign In | Allow the registered shopper to sign in with their account. | ![Hookah Culture Sign In Page]() |
-Sign Out | Allow the registered shopper to sign out from their account. | ![Hookah Culture Sign Out Page]() |
-
-
+Sign Up | Allow the shopper to sign up an account for the website. | ![Hookah Culture Sign Up Page](assets/readme/signup.png) |
+Sign In | Allow the registered shopper to sign in with their account. | ![Hookah Culture Sign In Page](assets/readme/signin.png) |
+Sign Out | Allow the registered shopper to sign out from their account. | ![Hookah Culture Sign Out Page](assets/readme/signout.png) |
+Reset Password | Allow the registered shopper to reset their password. | ![Hookah Culture Reset Password Page](assets/readme/resetpassword.png) |
 
 ### 404 Error Page
-![Hookah Culture 404 error page image]()
+![Hookah Culture 404 error page image](assets/readme/error404.png)
 
 * Provided information to the shopper in case the address entered cannot be found.
 
