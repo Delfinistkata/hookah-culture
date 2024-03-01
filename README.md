@@ -1,6 +1,6 @@
 # Hookah Culture
 
-![Hookah Culture mockup images](assets/readme/mockup-image.png)
+![Hookah Culture mockup images](assets/readme/mockup.png)
 
 Welcome to Hookah Culture, where the art of hookah transcends beyond a mere pastime, transforming into a captivating experience that blends tradition with modernity. Rooted in a passion for quality, community, and exploration, Hookah Culture is your premier destination for all things hookah. At Hookah Culture, we curate a diverse selection of premium hookahs, accessories, and flavors, each chosen with meticulous care to cater to the diverse tastes and preferences of our discerning clientele. Our mission is to not only provide top-notch products but to also foster a vibrant community where hookah enthusiasts can connect, share, and embark on a journey into the heart of hookah culture. Join us on this journey, and let Hookah Culture be your trusted companion in exploring the captivating world of hookah enjoyment.
 
