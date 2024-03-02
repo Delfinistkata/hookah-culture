@@ -4,7 +4,7 @@
 
 Welcome to Hookah Culture, where the art of hookah transcends beyond a mere pastime, transforming into a captivating experience that blends tradition with modernity. Rooted in a passion for quality, community, and exploration, Hookah Culture is your premier destination for all things hookah. At Hookah Culture, we curate a diverse selection of premium hookahs, accessories, and flavors, each chosen with meticulous care to cater to the diverse tastes and preferences of our discerning clientele. Our mission is to not only provide top-notch products but to also foster a vibrant community where hookah enthusiasts can connect, share, and embark on a journey into the heart of hookah culture. Join us on this journey, and let Hookah Culture be your trusted companion in exploring the captivating world of hookah enjoyment.
 
-Visit the deployed website [here](....).
+Visit the deployed website [here]().
 
 <br>
 <hr>
@@ -40,20 +40,21 @@ Visit the deployed website [here](....).
    8. [Profile Page](#profile-page)
    9. [Wishlist Page](#wishlist-page)
    10. [Reviews Page](#reviews-page)
-   11. [Reviews Admin](#reviews-admin)
-   12. [Contact Us Page](#contact-us-page)
-   13. [Accounts Pages](#accounts-pages)
-   14. [404 Error Page](#404-error-page)
+   11. [Add Review](#add-review)
+   12. [Edit Review](#edit-review)
+   13. [Contact Us Page](#contact-us-page)
+   14. [Accounts Pages](#accounts-pages)
+   15. [404 Error Page](#404-error-page)
 4. [Technologies Used](#technologies-used)
     1. [Languages Used](#languages-used)
-    2. [Libraries and Frameworks](#languages-and-frameworks)
+    2. [Libraries and Frameworks](#libraries-and-frameworks)
     3. [Packages / Dependencies Installed](#packages--dependencies-installed)
     4. [Database Management](#database-management)
     5. [Payment Service](#payment-service)
     6. [Cloud Storage](#cloud-storage)
     7. [Tools and Programs](#tools-and-programs)
 5. [Testing](#testing)
-    1. [Go to TESTING.md]()
+    1. [Go to TESTING.md](https://github.com/Delfinistkata/hookah_culture/blob/main/TESTING.md#hookah-culture-testing)
 6. [Deployment](#deployment)
     1. [How To Use This Project](#how-to-use-this-project)  
     2. [Deployment to Heroku](#deployment-to-heroku)   
@@ -574,6 +575,16 @@ See the live Facebook Business page [here](https://www.facebook.com/hookahcultur
 
 * A newsletter registration form has been located at the footer allowing the shopper to subscribe across the whole website.
 
+### Home Page
+
+![Hookah Culture footer image](assets/readme/mainhomepage.png)
+
+* Display the discount for free delivery on all orders.
+
+* Button that redirects to the all products page
+
+* Provides 3 icons which redirect the user to the Business Facebook page, the owner's LinkedIn Account and the owner's Github Account.
+
 ### Products
 
 ### Products Page
@@ -729,6 +740,10 @@ Reset Password | Allow the registered shopper to reset their password. | ![Hooka
 
 * A link to come back to the products is present.
 
+[Back to top ⇧](#hookah-culture)
+
+## Technologies Used
+
 ### Languages Used
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML)
@@ -814,19 +829,20 @@ Reset Password | Allow the registered shopper to reset their password. | ![Hooka
 * [Favicon.io](https://favicon.io) 
     * It was used to create the site favicon.
 
+[Back to top ⇧](#hookah-culture)
 
 ## Testing
 
-The testing documentation can be found [here]().
+The testing documentation can be found [here](https://github.com/Delfinistkata/hookah_culture/blob/main/TESTING.md#hookah-culture-testing).
+
+[Back to top ⇧](#hookah-culture)
 
 ## Deployment
- 
-The project was developed using[GitPod](https://gitpod.io/) workspace. The code was commited to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/") using the terminal. The web application is deployed on Heroku as Github Pages is not able to host a Python project. Static and media files are being stored in AWS S3. The repository is hosted on Github.
 
+The project was developed using[GitPod](https://gitpod.io/) workspace. The code was commited to [Git](https://git-scm.com/) and pushed to [GitHub](https://github.com/") using the terminal. The web application is deployed on Heroku as Github Pages is not able to host a Python project. Static and media files are being stored in AWS S3. The repository is hosted on Github.
 
 ### How To Use This Project
 To use and further develop this project you can either fork or clone the repository.  
-
 
 #### Fork GitHub Repository
 By forking the GitHub repository you can make a copy of the original repository on your GitHub account to view and/or make changes without affecting the original repository, by using the following steps:  
@@ -836,7 +852,6 @@ By forking the GitHub repository you can make a copy of the original repository 
 3. At the top right of the Repository just below your profile picture, locate the "Fork" button.  
 4. You should now have a copy of the original repository in your GitHub account.  
 5. Changes made to the forked repository can be merged with the original repository via a pull request.  
-
 
 #### Clone Github Repository
 By cloning a GitHub repository you can create a local copy on your computer of the remote repository. The developer who clones a repository can synchronize their copy of the codebase with any updates made by fellow developers with push or pull request. Cloning is done by using the following steps:  
@@ -896,6 +911,7 @@ Click [Here](https://docs.github.com/en/github/creating-cloning-and-archiving-re
    ```  
 The project should now complete to run and can now be used for development. To run the project, type in the CLI terminal: ```python3 manage.py runserver```     
 
+[Back to top ⇧](#hookah-culture)
 
 ### Deployment to Heroku 
 This project is deployed on Heroku for production, with all static and media files stored on AWS S3. These are steps to deploy on Heroku:
@@ -998,6 +1014,8 @@ This project is deployed on Heroku for production, with all static and media fil
    DEBUG = 'DEVELOPMENT' in os.environ
    ```
 
+[Back to top ⇧](#hookah-culture)
+
 ### AWS Bucket Creation   
 All static and media files in this project are stored in [Amazon Web Services S3 bucket](https://aws.amazon.com/) which is a cloud based storage service. You can create your own bucket by following these steps:   
 1. Go to [Amazon Web Service website](https://aws.amazon.com/) and click on Create An AWS Account, or login if you already have an account.  
@@ -1067,7 +1085,6 @@ All static and media files in this project are stored in [Amazon Web Services S3
       - Check on the group that has the policy attached. Click Next: Tags, then click Next: Review, and lastly Create User.     
       - Download the csv file and save it.  
 
-
 ### Connect Django to AWS Bucket 
 Note: If you've forked the repository, all of these steps are already done/ written on the files. Make sure you've installed all dependencies in the requirements.txt file, add all the AWS-related Config Vars to Heroku, and remove the DISABLE_COLLECTSTATIC variable from Heroku.   
 Here are the steps I took to connect Django to AWS:  
@@ -1135,20 +1152,32 @@ Create a custom_storages.py file in your project's root directory, and inside it
    git push
    ```
 
+[Back to top ⇧](#hookah-culture)
+
 ## Finished Product
 
 Page | Desktop | Mobile |
 --- | --- | --- |
-| Home | ![Desktop Home Page image]() | ![Mobile Home Page image ]() |
-| Products | ![Desktop Products Page image]() | ![Mobile Products Page image ]() |
-| Product Details | ![Desktop Product Details Page image]() | ![Mobile Product Details Page image ]() |
-| Shopping Cart | ![Desktop Shopping Cart Page image]() | ![Mobile Shopping Cart Page image ]() |
-| Checkout | ![Desktop Checkout Page image]() | ![Mobile Checkout Page image ]() |
-| Checkout Success | ![Desktop Checkout Success Page image]() | ![Mobile Checkout Page image ]() |
-| Profile | ![Desktop Profile Page image]() | ![Mobile Profile Page image ]() |
-| Reviews | ![Desktop Reviews Page image]() | ![Mobile Reviews Page image ]() |
-| Wishlist | ![Desktop Wishlist Page image]() | ![Mobile Wishlist Page image ]() |
-| Contact Us | ![Desktop Contact Us Page image]() | ![Mobile Contact Us Page image ]() |
+| Home | ![Desktop Home Page image](assets/readme/homefinal.png) | ![Mobile Home Page image ](assets/readme/homemobilefinal.png) |
+| Products | ![Desktop Products Page image](assets/readme/productsfinal.png) | ![Mobile Products Page image ](assets/readme/productsmobilefinal.png) |
+| Product Details | ![Desktop Product Details Page image](assets/readme/productdetailfinal.png) | ![Mobile Product Details Page image ](assets/readme/productdetailmobilefinal.png) |
+| Add Product | ![Desktop Add Product Page image](assets/readme/addproductfinal.png) | ![Mobile Add Product Page image ](assets/readme/addproductmobilefinal.png) |
+| Edit Product | ![Desktop Edit Product Page image](assets/readme/editproductfinal.png) | ![Mobile Edit Product Page image ](assets/readme/editproductmobilefinal.png) |
+| Shopping Cart | ![Desktop Shopping Cart Page image](assets/readme/cartfinal.png) | ![Mobile Shopping Cart Page image ](assets/readme/cartmobilefinal.png) |
+| Checkout | ![Desktop Checkout Page image](assets/readme/checkoutfinal.png) | ![Mobile Checkout Page image ](assets/readme/checkoutmobilefinal.png) |
+| Checkout Success | ![Desktop Checkout Success Page image](assets/readme/successfinal.png) | ![Mobile Checkout Page image ](assets/readme/successmobilefinal.png) |
+| Profile | ![Desktop Profile Page image](assets/readme/profilefinal.png) | ![Mobile Profile Page image ](assets/readme/profilemobilefinal.png) |
+| Reviews | ![Desktop Reviews Page image](assets/readme/reviewsfinal.png) | ![Mobile Reviews Page image ](assets/readme/reviewsmobilefinal.png) |
+| Add Review | ![Desktop Add Review Page image](assets/readme/addreviewfinal.png) | ![Mobile Add Review Page image ](assets/readme/addreviewmobilefinal.png) |
+| Edit Review | ![Desktop Edit Review Page image](assets/readme/editreviewfinal.png) | ![Mobile Review Page image ](assets/readme/editreviewmobilefinal.png) |
+| Wishlist | ![Desktop Wishlist Page image](assets/readme/wishlistfinal.png) | ![Mobile Wishlist Page image ](assets/readme/wishlistmobilefinal.png) |
+| Contact Us | ![Desktop Contact Us Page image](assets/readme/contactusfinal.png) | ![Mobile Contact Us Page image ](assets/readme/contactusmobilefinal.png) |
+| Sign Up | ![Desktop Sign Up Page image](assets/readme/signupfinal.png) | ![Mobile Sign Up Page image ](assets/readme/signupmobilefinal.png) |
+| Sign In | ![Desktop Sign In Page image](assets/readme/signinfinal.png) | ![Mobile Sign In Page image ](assets/readme/signinmobilefinal.png) |
+| Sign Out | ![Desktop Sign Out Page image](assets/readme/signoutfinal.png) | ![Mobile Sign Out Page image ](assets/readme/signoutmobilefinal.png) |
+| Reset Password | ![Desktop Reset Password Page image](assets/readme/passwordresetfinal.png) | ![Mobile Sign In Page image ](assets/readme/passwordresetmobilefinal.png) |
+
+[Back to top ⇧](#hookah-culture)
 
 ## Credits
 
@@ -1175,7 +1204,6 @@ Page | Desktop | Mobile |
 * [Unsplash](https://unsplash.com/)
 
 * [Pixabay](https://pixabay.com/)
-
 
 [Back to top ⇧](#hookah-culture)
 

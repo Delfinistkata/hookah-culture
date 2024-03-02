@@ -1,10 +1,10 @@
 # Hookah Culture Testing
 
-[Back to the README.md file](...)  
+[Back to the README.md file](https://github.com/Delfinistkata/hookah_culture/blob/main/README.md#hookah-culture)  
 
-[Back to the Testing section in the README.md file](....)
+[Back to the Testing section in the README.md file](https://github.com/Delfinistkata/hookah_culture/blob/main/README.md#testing)
 
-[View the live website here](....)  
+[View live website here]()  
 
 ## Table of Contents
 
