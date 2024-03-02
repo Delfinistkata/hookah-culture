@@ -4,7 +4,7 @@
 
 [Back to the Testing section in the README.md file](https://github.com/Delfinistkata/hookah_culture/blob/main/README.md#testing)
 
-[View live website here]()  
+[View live website here](https://hookah-culture-2bfc66e2f4dc.herokuapp.com/)  
 
 ## Table of Contents
 
