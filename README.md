@@ -1239,7 +1239,7 @@ On the checkout page, logged in users can save the delivery info if they wish to
 
 2) Double Orders Appear Under Order History:
 
-When making an order, after going to the profile page, in the order history, the order that was currently made appears twice with 2 different order numbers, yet the user is only charged once. Tried to debug this issue with print statements on the main files related to it but nothing found that triggers the orders to be doubled. This issue does not impact the functionality of the website.
+When making an order, after going to the profile page, in the order history, the order that was currently made appears twice with 2 different order numbers, yet the user is only charged once. Tried to debug this issue with print statements on the main files related to it but nothing found that triggers the orders to be doubled. After trying to solve this issue myself, I got in touch with student support, after trying to debug the issue together for several hours, another tutor joined in to look at the issue and again after spending few more hours on it and adding few more print statements into the code, again no luck on finding the cause, as this happens sometimes. This issue does not impact the functionality of the website.
 
 [Back to top ⇧](#hookah-culture)
 
