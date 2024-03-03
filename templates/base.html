@@ -175,12 +175,12 @@
                                         with the latest trends and exclusive offers. </p>                                
                                     <div class="form-group ">
                                         <input type="email" name="email" class="form-control"
-                                            placeholder="Enter your email" required="">
+                                            placeholder="Enter your email" required="" autocomplete="email">
                                             <div class="d-flex gap-2 flex-column">                                            
                                                 <button class="btn btn-primary mt-2" type="submit" id="subscribe">Subscribe</button>
                                                 <a href="{% url 'unsubscribe' %}" class="btn btn-warning mt-2" id="unsubscribe">Unsubscribe</a>
-                                            </div>                                    
-                                        </div>
+                                            </div>                                 
+                                    </div>
                                 </div>
                             </form>
                         </div>
@@ -208,13 +208,15 @@
         });
         $('#unsubscribe').click(function(e) {
                 e.preventDefault();                
-                const href = $(this).attr('href');                   
+                const href = $(this).attr('href');          
+                const form = $('#newsletters-form');
+                form.attr('action', href)            
                 $.confirm({
                     title: 'Confirm!',
                     content: 'Are you sure you want cancel your subcriptions  ?',
                     buttons: {
                         confirm: function () {                        
-                            window.location = href;
+                            form.submit();
                         },
                         cancel: function () {
                             return;
