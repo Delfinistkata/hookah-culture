@@ -1231,7 +1231,15 @@ Page | Desktop | Mobile |
 
 ## Known Bugs
 
-No bugs found after testing.
+There are 2 issues in the project that are addressed to get them solved, however they remain unsolved issues due to a lack of my current skills and/or time. Yet both issues do not impact the functionality of the website.
+
+1) Save Delivery Info On Checkout:
+
+On the checkout page, logged in users can save the delivery info if they wish to. There is a check box as an option, however even the box is unticked, the details are saved for some reason. Looked at the code but cannot figure out why this happens, and as it is not a major issue, leave it as an unsolved issue.
+
+2) Double Orders Appear Under Order History:
+
+When making an order, after going to the profile page, in the order history, the order that was currently made appears twice with 2 different order numbers, yet the user is only charged once. Tried to debug this issue with print statements on the main files related to it but nothing found that triggers the orders to be doubled. This issue does not impact the functionality of the website.
 
 [Back to top ⇧](#hookah-culture)
 
