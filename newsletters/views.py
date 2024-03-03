@@ -4,7 +4,6 @@ such as adding subscribers.
 """
 from django.http import HttpResponseRedirect
 from django.contrib import messages
-from django.shortcuts import get_object_or_404
 
 from .models import Subscriber
 from .forms import SubscriberForm, UnsubscribeForm
@@ -60,7 +59,7 @@ def unsubscribe(request):
         if form.is_valid():
             email = form.cleaned_data['email']
             try:
-                subscriber = get_object_or_404(Subscriber, email=email)
+                subscriber = Subscriber.objects.get(email=email)
                 subscriber.unsubscribe()
                 messages.success(
                     request,
